@@ -1,0 +1,14 @@
+/* DEFAULTS */body { 	margin: 0; 	color: #000; 	min-width: 270px; 	padding: 35px 0 0 0; 	background: url('assets/bg_body.png'); 	font-family: Georgia, "Times New Roman", Times, Serif;}
+h1,h2,h3,h4,h5 { 	margin: 0; 	padding: 0; }
+.clear { 	clear: both;}
+.center { 	text-align: center !important;}
+.text-right { 	text-align: right;}
+.bold { 	font-weight: bold;}
+.italic { 	font-style: italic;}
+.underline { 	text-decoration: underline; }
+.uppercase { 	text-transform: uppercase;}
+.small { 	font-size: small;}.left { 	float: left; }.right { 	float: right; }.no-bg {	background: none !important;}.reset {	margin: 0 !important;	padding: 0 !important;}#wrapper { 	background: #F3F6AD;}
+/* HEADER */#logo {	margin: -30px 0 0;}	#nav {	margin: 20px 0;	padding-bottom: 30px;	background: transparent url('assets/img_divider.png') no-repeat center bottom;}#nav a {	color: #2B110B;	letter-spacing: -1px;	text-decoration: none;	text-transform: uppercase;	font: 11px Georgia, Serif;}#nav a:hover,#nav a.active-menu {	color: #028502;	text-decoration: underline;}#banner {	position: relative;}#banner img {	min-width: 70%;	min-height: 70%;}		
+/* CONTENT */h1 {	color: #043802;	margin-top: 20px;	font: bold 25px Georgia, Serif;}#content #all-season {	margin: 0;	padding: 0;	line-height: 12px;	background: none !important;}#content p,#subContent p {	color: #222;	margin: 20px 10px 15px;	padding: 20px 12% 15px;	font: 12px/18px Georgia, Serif;	background: transparent url('assets/bg_content.png') no-repeat left top;}#content .service-title {	margin-top: 0;	margin-right: 0;	padding-left: 0;	margin-bottom: 0;	padding-bottom: 0;}#content .gallery-pic {	display: inline;	margin: 0 10px 10px 0;}/* SUB CONTENT */#subContent {	background: #F9FBD5 url('assets/bg_subpages.png') repeat-x;}h2 {	color: #009400;	margin-left: 10%;	padding-left: 25px;	font: bold italic 14px/20px Georgia, Serif;	background: transparent url('assets/bg_header.png') no-repeat left center;}#content ul,#subContent ul,#content .service-title {	margin-left: 12%;}#content ul li,#subContent ul li {	font: 12px/18px Georgia, Serif;}#subContent .call {	color: #043802;	font-weight: bold;	font-style: italic;	padding: 15px 12% 25px !important;	background: transparent url('assets/bg_content-end.png') no-repeat right bottom;}#subContent .call .number {	color: #589146;}/* BOTTOM CONTENT */#btmContent {	padding: 0 0 25px;	background: #C0D598;}#btmContent h3 {	color: #68922D;}#btmContent .deals {	margin: 25px 0 0;	color: #4C1F13 !important;	font-size: 14px !important;	padding: 0 20px !important;	background: none !important;}#pagination a {	color: #589146;}#pagination:hover,#pagination a.active {	color: #043802;}				
+/* FOOTER */
+#footer { 	color: #FFF;	padding-top: 10px;	font: 10px/20px Georgia, Serif;}

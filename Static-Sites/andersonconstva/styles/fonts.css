@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Banff';
+    src: url('../fonts/banff_no.eot');
+    src: url('../fonts/banff_no.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/banff_no.woff') format('woff'),
+		 url('../fonts/banff_no.ttf') format('truetype'),
+         url('../fonts/banff_no.svg#Pristina') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'SFAtarian';
+    src: url('../fonts/sf_atarian_system_extended-webfont.eot');
+    src: url('../fonts/sf_atarian_system_extended-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sf_atarian_system_extended-webfont.woff') format('woff'),
+         url('../fonts/sf_atarian_system_extended-webfont.ttf') format('truetype'),
+         url('../fonts/sf_atarian_system_extended-webfont.svg#SFAtarian') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+

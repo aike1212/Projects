@@ -1,0 +1,20 @@
+revisions
+----------------------------
+prog: AIKE
+
+1. please change the logo to
+
+http://esilverconnect.com/scwdObj/index.cfm?ID=0CC2C0CFCE&image=52878A8B8B9EBA52B48E641576604E68A8405F23618F0B1E2D8BFE5FA4DCD7F9482C07589700&path=72
+
+It should be the logo on the RIGHT side SECOND ONE down.
+
+2. make the vertical bar (where logo is located) bigger in width
+add another inch moving the width of the vertical column towards the home tab
+*please make the adjustments on the inner pages content area since the vertical
+column will extend to the right.
+
+3. Tabs font need to be changed to match the font used on the logo
+Font used it called zapfino
+
+thanks.. 
+	

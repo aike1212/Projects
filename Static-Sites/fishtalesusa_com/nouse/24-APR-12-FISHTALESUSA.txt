@@ -1,0 +1,17 @@
+revisions
+------------------------------------------------
+prog: AIKE
+
+1. font on nav tabs need to be bigger and in bold
+2. on banner add this in big bold letters in blue:
+For information on our catering services and food trucks give us a call at 281 532 2110.
+3. view our gallery tab on home page should link to gallery page
+4. gallery page should be directly underneath the banner. please remove the 4 images
+underneath the banner to make room for the thumbnails.
+all thumbnails should also be seen on one page
+5. reviews page
+remove the 4 images under the banner
+6. about us page
+remove the 4 images under the banner
+
+Thanks! 

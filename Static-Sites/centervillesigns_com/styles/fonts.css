@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'BankGothic';
+    src: url('../fonts/bnkgothl-webfont.eot');
+    src: url('../fonts/bnkgothl-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bnkgothl-webfont.woff') format('woff'),
+         url('../fonts/bnkgothl-webfont.ttf') format('truetype'),
+         url('../fonts/bnkgothl-webfont.svg#BankGothic') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Babylon5';
+    src: url('../fonts/babylon5.eot');
+    src: url('../fonts/babylon5.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/babylon5.woff') format('woff'),
+         url('../fonts/babylon5.ttf') format('truetype'),
+         url('../fonts/babylon5.svg#Babylon5') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+
+

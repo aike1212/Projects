@@ -1,0 +1,36 @@
+revisions
+----------------------------------------
+prog: AIKE
+
+
+1. home page:
+a. change text used for "view our catering menu"
+text needs to be more visible.
+b. change the stock photo image to any photo found here
+http://www.fishtalestexas.com
+
+2. change text on banner to this: (added words on this new one)
+
+Fishtales began in 1999 as a road side local
+place to stop and get some quality food .
+Our original locations were ran from local food
+trailers and due to the popularity we grew into the
+restaurant and catering business.
+The success is due to our devotion to our food quality,
+excellent service and our Commitment to be a positive
+community establishment!
+
+3. Menu page
+
+a. text on page:
+
+The menu at this location is designed specifically to cater to the born-and-bred Texans in the area. Fried catfish, fried oysters and fried shrimp are the reasons our customers keep coming back!
+
+
+b. Please see \\awd-hyperv-ws8\webdesign\GetStocK\F\fishtalesusa.com MENU DOC
+
+4. gallery page please upload photos from
+
+\\awd-hyperv-ws8\webdesign\GetStocK\F\fishtalesusa.com
+
+thanks... 

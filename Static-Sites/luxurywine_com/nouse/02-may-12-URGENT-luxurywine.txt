@@ -1,0 +1,8 @@
+revisions
+-------------------
+prog: AIKE
+
+1. make the logo bigger and the font on logo bold.
+2. Adjustment of the content and sidebar height. .
+
+thanks... 

@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'TrajanPro';
+    src: url('../fonts/trajanpro-regular-webfont.eot');
+    src: url('../fonts/trajanpro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/trajanpro-regular-webfont.woff') format('woff'),
+         url('../fonts/trajanpro-regular-webfont.ttf') format('truetype'),
+         url('../fonts/trajanpro-regular-webfont.svg#TrajanPro') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+

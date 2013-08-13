@@ -1,0 +1,31 @@
+.menuContainer { background: url(../images/content/bg_btm-content-ie.jpg) repeat-x; }
+
+.menu-cont big { background: none; }
+
+.tabs { margin: 20px 0 0; }
+
+#content1 dl,
+#content .gallery li {
+	zoom: 1;
+	*display: inline;
+}
+
+#content1 dl,
+#content .gallery li {
+	margin-bottom: 25px;
+}
+
+#content1 dl dt img,
+#content .gallery li a img {
+	border: none;
+}
+
+#social a,
+#social2 a {
+	display: block;
+	float: left;
+}
+
+#social { margin-left: 360px; }
+
+#social2 { top: 5px; }
