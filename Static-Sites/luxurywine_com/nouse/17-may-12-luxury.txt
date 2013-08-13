@@ -1,9 +1,0 @@
-5. change the photos on the jquery to the ones below
-(client will purchase photos, but wants to see it on the banner first)
-
-photos saved here
-\\awd-hyperv-ws8\webdesign\GetStocK\L\luxurywine
-
-for the banner, the transition has to slowly (slower than how it is now) fade in to the next image.
-
-The client does not want the images to look to strong on the layout so please edit each image chosen to look like it has some filter effect so the image looks lighter than the original version.

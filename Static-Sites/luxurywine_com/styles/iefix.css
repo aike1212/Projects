@@ -1,5 +1,0 @@
-@charset "utf-8";
-/* CSS Document */
-
-.test{background:url(../images/bg.png) repeat-y; height:55px; z-index:-1; width:272px; display:block; position:absolute; margin:0 auto 0 225px;}
-#header ul{ top:13px; }

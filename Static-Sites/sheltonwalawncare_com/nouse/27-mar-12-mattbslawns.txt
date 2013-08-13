@@ -1,9 +1,0 @@
-revisions
-------------------------------
-prog: DECAY
-
-• RIGHT NAV "learn more" please link to services.
-
-• all pages except home. please book mark to content "#content" banner is big that's why.
-
-thanks =) 

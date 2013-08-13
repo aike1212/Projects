@@ -1,4 +1,0 @@
-1. contact us will just look like a tab or a button on the homepage but will not be its own page.
-when clicked on, it will just direct to the contact form on the about us page. 
-
-2. on the contact us section on the right side, when email address is clicked on, it should bring up the viewers outlook or mail software. same thing for the email address on the banner. 
