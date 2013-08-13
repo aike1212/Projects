@@ -1,0 +1,28 @@
+revisions
+------------------------------------------------
+prog: AIKE
+
+
+1. home page:
+a. the jquery needs to be set bigger. There are white spaces on
+the left and bottom sides of the screen and this also appears bigger when viewed
+in chrome. Please make adjustments so it fits the screen perfectly
+
+b. bar for footer should be at the bottom of the page. right now it is placed
+2 inches above where it should be. Please fix.
+
+c. logo, please change it to the logo found here
+http://esilverconnect.com/scwdObj/index.cfm?ID=0CC2C0CFCE&image=52878A8B8B9EBA52B48E641576604E68A8405F23618F0B1E2D8BFE5FA4DCD7F9482C07589700&path=72
+it should be the first one on the upper left corner.
+(logo should not have any white background. )
+
+d. about us page please see this layout, this is how it should look
+(also applies to all subpages)
+
+http://esilverconnect.com/scwdObj/index.cfm?ID=0CC2C0C7CD&image=52878A8B8B9EBA52B48E641576604E68A8405F23618F0F1E2D8BFE5FA4DCD7F9402F07589700&path=72
+
+please not that this page should also fit the screen perfectly, no white boarders on the edges and
+the footer bar should be at the bottom
+
+
+Thanks! 

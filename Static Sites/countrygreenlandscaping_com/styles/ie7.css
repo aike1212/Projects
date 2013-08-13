@@ -1,0 +1,21 @@
+#inner-footer span a[title="Twitter"] {
+	background-position-x: 72px;
+	background-position-y: 0px;
+}
+
+#inner-footer span a[title="Youtube"] {
+	background-position-x: 37px;
+	background-position-y: 0px;
+}
+
+#leaf {
+	float: left;
+}
+
+#btmContent {
+	margin: 50px 0 25px;
+}
+
+#footer {
+	height: 210px;
+}

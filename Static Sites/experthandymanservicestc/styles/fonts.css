@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Rockwell';
+    src: url('../fonts/rock.eot');
+    src: url('../fonts/rock.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/rock.woff') format('woff'),
+         url('../fonts/rock.ttf') format('truetype'),
+         url('../fonts/rock.svg#Rockwell') format('svg');
+    font-style: normal;
+    font-weight: normal;
+
+}
+

@@ -1,0 +1,13 @@
+revisions
+===========================
+prog: AIKE
+
+Homepage:
+1. Check http://esilverconnect.com/scwdObj/index.cfm?ID=0FCBC6CAC1&image=5F9E819D968ABD4EAE8E49097C634675BF400C7821E20B00328AF640C9DED6F9262A1006D35F0AB7BC98&path=7F, we need to put a security camera on the content area and the banner too if possible.
+
+Change About tab to "Testimonials" and get rid of everything inside this page
+
+Services page:
+1. Add 4, 8, 16 Channel CCTV Installation and DVDR System Installation for his services
+
+thanks =) 

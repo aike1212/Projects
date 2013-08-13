@@ -1,0 +1,27 @@
+revisions
+------------------------------
+prog: Decay
+
+1. home page
+
+please add this coupon image on the home page
+
+http://esilverconnect.com/scwdObj/index.cfm?ID=0CC2C1C8CC&image=78BBA1B6ADA6817E89BE683A465068519271006425C95E6C2F8FE25FCDC3D5FB48297600D75412E8E295A494&path=78  
+
+pls check: fishtale_coupon folder
+
+when clicked on, this image should open to a new window with optiion to print
+
+2. Investor relations page content:
+
+We are looking for interested parties who would like to get in on the ground floor of our expansion of Fish Tales Catfish and Shrimp.
+This is an opportunity of a life time for hard working entrepreneurs to invest a minimal amount and get a maximum return.
+
+We are not a $300k investment not by any means. We have a great product that we will be growing in the next five years. We are working with several professional advisers in their field to make sure we grow slow but grow the right way.
+
+There will me much more on this page coming soon. Please call Scott @ 832-647-0964 to gain a further insight. We look forward to growing together.
+
+Drop buy to try us and see if you want in on the ground floor.
+
+
+thanks

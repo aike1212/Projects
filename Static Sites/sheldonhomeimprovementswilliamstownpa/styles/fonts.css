@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'AgencyBold';
+    src: url('../fonts/agencyb.eot');
+    src: url('../fonts/agencyb.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/agencyb.woff') format('woff'),
+         url('../fonts/agencyb.ttf') format('truetype'),
+         url('../fonts/agencyb.svg#Agency') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'CooperplateGothicBold';
+    src: url('../fonts/copgothb-webfont.eot');
+    src: url('../fonts/copgothb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/copgothb-webfont.woff') format('woff'),
+         url('../fonts/copgothb-webfont.ttf') format('truetype'),
+         url('../fonts/copgothb-webfont.svg#Agency') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+
+

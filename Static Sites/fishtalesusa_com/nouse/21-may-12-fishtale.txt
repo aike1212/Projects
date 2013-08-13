@@ -1,0 +1,22 @@
+1. please add a facebook logo (big logo) on the home page. Anywhere on the page is fine. 
+link this logo to http://www.facebook.com/pages/Fish-Tales/150400588349993?sk=info
+
+2. please add a foursquare(big logo) on the home page. Anywhere on the page is fine. 
+link this logo to https://foursquare.com/v/fish-tales/4cadf6372a55224bf6c47269?ref=atw
+
+3. reviews page:
+add the following
+
+* Nataliya A. 3 weeks ago
+
+Blackened Catfish - best in town!
+
+* Angele L. December 26, 2011
+
+The best catfish and hushpuppies i've ever had, but be ready for the grease and oil.
+
+4. add another tab for contact us
+tab will just redirect to the investor relations page
+and below this page will be the contact us form. 
+
+form submissions will be sent to lakehoustonre@yahoo.com

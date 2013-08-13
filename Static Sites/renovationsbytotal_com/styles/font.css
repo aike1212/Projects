@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'SaginawBold';
+    src: url('saginawbold_0-webfont.eot');
+    src: url('saginawbold_0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('saginawbold_0-webfont.woff') format('woff'),
+         url('saginawbold_0-webfont.ttf') format('truetype'),
+         url('saginawbold_0-webfont.svg#SaginawBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

@@ -1,0 +1,59 @@
+*{
+padding:0;
+margin:0;
+}
+h1,h2,h3,h4,h5{
+padding:0;
+margin:0;
+}
+a{
+text-decoration:none;
+}
+a img{
+text-decoration:none;
+border:none;
+}
+.hidden{
+text-indent:-999em;
+overflow:hidden;
+}
+.strong{
+font-weight:bold !important;
+}
+.italic{
+font-style:italic !important;
+}
+.uppercase{
+text-transform:uppercase !important;
+}
+hr{
+padding:0;
+margin:0;
+display:none;
+}
+.nojavascript{
+position:absolute;
+z-index:1;
+color:red;
+background:#fff;
+font:bold 12px 'Trebuchet MS',Arial,georgia, San-serif;
+border:2px red dashed;
+width:990px;
+top:0;
+left:50%;
+margin-left:-495px;
+}
+/* Clearfix */
+.clearfix{
+display: block;
+}
+.clearfix:after{
+content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+	html[xmlns] .clearfix{ display: block; }
+	* html .clearfix{ height: 1%; }
+
+.clear{ 
+clear:both; 
+font-size:1px;
+}
+

@@ -1,0 +1,188 @@
+/* CSS Document */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+em, img, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  vertical-align:baseline;
+}
+
+
+.clear{ clear:both;}
+.clearfix:after {content:"."; display:block; height:0; clear:both;visibility:hidden;}
+.clearfix {display:inline-block;}
+/* Hide from IE Mac \*/
+.clearfix {display:block;}/* End hide from IE Mac */
+/*nojavascript*/
+.nojavascript{ position:absolute; z-index:1; color:red; background:#fff; font:bold 12px 'Trebuchet MS',Arial,georgia, San-serif; border:2px red dashed; width:990px; top:0; left:50%; margin-left:-495px; }
+
+
+
+
+body{background:url(../images/main_bg.jpg) no-repeat center top; font-family:Georgia, "Times New Roman", Times, serif; color:#333; font-size:14px !important}
+#main_wrapper{width:992px; padding:11px 9px 0; height:1429px; margin:auto; position:relative}
+.overlap_left{ position:absolute; top:694px; left:-23px; z-index:1}
+.overlap_right{ position:absolute; top:885px; left:949px; z-index:1}
+.overlap_bottom{ position:absolute; bottom:27px; left:543px; z-index:1}
+
+/*
+	HEAD
+*/
+#header_main_wrapper{position:absolute; top:0; background:url(../images/layout_background.png) repeat-y center bottom; padding-top:11px; }
+.logo{position:absolute;}
+.phone_box{	position:absolute; left: 781px; top: 11px; width:188px;}
+.phone_box p{ padding:0; float:left}
+.phone_box .left{ background:url(../images/header/phone_box_left.png) no-repeat; width:7px; height:63px;}
+.phone_box .box_content{ background:url(../images/header/phone_box_bg.png) repeat-x; height:45px; width:163px; padding-left:8px; padding-top:16px; color:#662D1D;font-family:'GeoSlab703MdBTMedium', Georgia; font-size:25px; font-weight:bold}
+.phone_box .right{ background:url(../images/header/phone_box_right.png) no-repeat; width:10px; height:63px;}
+
+#header_wrapper{ margin:auto; margin-top:52px; color:#FFF; width:992px;}
+#header_wrapper p{ padding:0; margin:0}
+.head_box_left{ float:left; background:url(../images/header/box_bg_left.png); width:13px; height:516px;}
+.head_box_body{ float:left; width:966px; height:516px;}
+.head_box_right{ float:right; background:url(../images/header/box_bg_right.png); width:13px; height:516px;}
+.head_box_top{ background:url(../images/header/box_bg_top.png) no-repeat; height:5px; width:966px;}
+.head_box_bottom{ background:url(../images/header/box_bg_bottom.png) no-repeat; height:36px; width:966px;}
+.box_content{ background:url(../images/header/box_bg.png) repeat-x; height:475px;}
+
+.navigations_wrapper{float:left; width:260px; height:240px; margin-top:220px; background:url(../images/header/highlight.png) no-repeat;}
+.mattb_menu{ margin-left:38px;}
+.navigations_wrapper ul{ list-style:none; text-align:center; font-family: 'TrajanProRegular', Georgia, "Times New Roman"; font-size:15px; margin-top:10px;}
+.navigations_wrapper ul li{ line-height:25px;}
+.navigations_wrapper ul a {color:#2B110B; text-decoration:none}
+.navigations_wrapper ul a:hover{ color:#014301}
+.slide_show{ float:right; width:680px; height:465px; margin:6px !important; position:relative}
+.slide_label{display:block;font-family: 'TrajanProRegular', Georgia, "Times New Roman"; font-size:22px; color:#F3F6AA; text-align:center; position:absolute; width:680px; bottom:11px; padding:16px 0 !important; height:23px; background:url(../images/header/slide_label_bg.png) repeat-x;}
+
+
+/*
+	NAVIGATION
+*/
+
+
+
+
+
+/*
+	SLIDESHOW
+*/
+
+
+/*
+	CONTENT
+*/
+#content_wrapper{margin:550px auto 0; position:relative; width:989px; min-height:600px; }
+.box_top{ background:url(../images/body/box_top_bg.png) no-repeat; width:980px; margin:auto; height:20px;}
+
+#main_content{ float:right; width:697px;height:851px;}
+.content_wrapper{float:left; width:683px;}
+.content{ height:800px;width:683px; background:url(../images/body/body_bg2.png) repeat-x; position:relative}
+.box_top{ width:683px; height:8px; background:url(../images/body/box_top_bg2.png) no-repeat; padding:0; margin:0}
+.box_bottom{width:683px; height:42px; background:url(../images/body/body_bg_bottom.png) no-repeat; padding:0; margin:0}
+.box_right{ float:left; width:14px; height:850px; background:url(../images/body/body_bg_right2.png) no-repeat}
+.image_top{ margin-left:7px;}
+.image_top img{ margin-left:5px; margin-bottom:30px;}
+
+
+.text_content_home, .text_content, .text_content_scroll, .text_content_home_scroll{ float:left; width:415px; min-height:400px; margin-left:15px; color:#043801;}
+.text_content_home h1, .text_content h1, .text_content_scroll h1, text_content_home_scroll h1{font-family: 'TrajanProRegular',Georgia, "Times New Roman", Times, serif; font-weight:bold; font-size:30px; color:#043802}
+.title_label{ font-family:Georgia, "Times New Roman", Times, serif; font-style:oblique; font-size:17px;}
+.text_content_home p{ padding:10px 0}
+.text_content_home .specialty_serv{ height:37px; padding:10px 0 0 48px; margin:20px 0 0; background:url(../images/content/official_service_icon.png) top left no-repeat; color:#68922D; font-size:15px; font-style:oblique; font-weight:bold}
+.specialty_serv_list{ line-height:25px;}
+td.highlight{ background:#EBF383}
+
+/*sub page content*/
+.text_content{ float:none; width:650px; }
+
+/*sub pages with scroll*/
+.text_content_scroll {float:none; width:663px; height:594px; overflow-y:scroll;}
+.scroll{ height:594px; overflow-y:scroll;}
+.text_content_home ul{ list-style:disc; padding-left:30px}
+
+.before{ float:left; width:302px; text-align:center}
+.after{ float:right; width:302px; text-align:center}
+.before span, .after span{ width:302px; text-align:center}
+.gallery{width:638px; margin:auto; margin-bottom:20px}
+.gallery p{ line-height:20px; text-align:center; font-weight:bold}
+.gallery p span { font-weight:normal}
+
+
+.sign_up{ float:right; width: 230px; height:532px; position:relative; text-align:center; color:#4C1F13}
+.sign_up .top{ background:url(../images/body/sign_up_box_top_bg.png); height:8px;}
+.sign_up .box_content{ background:url(../images/body/sign_up_box_bg.png) #F4F8C0 repeat-x top; min-height:496px;}
+.sign_up .bottom{ background:url(../images/body/sign_up_box_bottom_bg.png); height:8px;}
+.learn_more{ position:absolute; display:block; background:url(../images/body/learn_more.png) no-repeat; width:180px; height:45px; text-align:center; padding-top:15px; bottom:0; left:27px; font-family:'GeoSlab703MdBTMedium', Georgia, "Times New Roman", Times, serif; color:#4C1F13; font-size:25px; font-weight:bold; text-decoration:none;}
+.sign_up h2{ color:#68922D; font-family:'GeoSlab703MdBTMedium', Georgia, "Times New Roman", Times, serif; font-size:30px;}
+
+
+
+
+/*
+LEFT NAV
+*/
+#leftnav{ float:left; width:292px; height:851px; text-align:center; background:url(../images/body/left_nav_bg.png) no-repeat; font-family:Georgia, "Times New Roman", Times, serif; color:#4C1F13; font-size:14px;}
+.our_service{ margin:15px 0 0 }
+#leftnav ul{list-style:disc;line-height:27px;margin-left:9px;padding-left:60px !important; text-align:left}
+.service1{ background:#C0D598; padding:10px 0  }
+.service2{ padding:10px 0}
+.service3{ background:#CFDFB0;padding:10px 0 }
+#leftnav p{ display:block; color:#1A2A14; font-family:Georgia, "Times New Roman", Times, serif; font-weight:bold; font-style:oblique; width:205px; margin:30px auto}
+
+
+
+/*
+	FOOTER
+*/
+#footer_wrapper{ position:relative;}
+#footer{margin:auto; text-align:left; position:absolute; top:-22px}
+#footer ul{ list-style:none;color:#FFF; margin-left:7px;font-size:16px;}
+#footer li{float:left;margin-left:8px;}
+#footer a{font-family: 'GeoSlab703MdBTMedium';  color:#FFF;  text-decoration:none; padding-left:5px;}
+#footer p{color:#fff; font-family:"Courier New", Courier, monospace; font-size:12px; margin:3px 0 0 17px;}
+
+
+
+
+
+@font-face {
+    font-family: 'TrajanProRegular';
+    src: url('webfont/trajanpro-regular-webfont.eot');
+    src: url('webfont/trajanpro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfont/trajanpro-regular-webfont.woff') format('woff'),
+         url('webfont/trajanpro-regular-webfont.ttf') format('truetype'),
+         url('webfont/trajanpro-regular-webfont.svg#TrajanProRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GeoSlab703MdBTMedium';
+    src: url('webfont/geo703m-webfont.eot');
+    src: url('webfont/geo703m-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfont/geo703m-webfont.woff') format('woff'),
+         url('webfont/geo703m-webfont.ttf') format('truetype'),
+         url('webfont/geo703m-webfont.svg#GeoSlab703MdBTMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'TheNautiGalROB';
+    src: url('thenautigal_rob-webfont.eot');
+    src: url('thenautigal_rob-webfont.eot?#iefix') format('embedded-opentype'),
+         url('thenautigal_rob-webfont.woff') format('woff'),
+         url('thenautigal_rob-webfont.ttf') format('truetype'),
+         url('thenautigal_rob-webfont.svg#TheNautiGalROB') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
