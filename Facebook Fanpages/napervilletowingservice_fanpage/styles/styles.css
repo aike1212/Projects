@@ -1,0 +1,490 @@
+/* default */
+h1,h2,h3,h4,h5 { 
+	margin: 0; 
+	padding: 0;
+}	
+
+.hidden { 
+	overflow: hidden;
+	text-indent: -999em; 
+}
+
+hr.hide-line { 
+	margin: 0; 
+	padding: 0; 
+	display: none;
+}
+
+.clearfix:after { 
+	height: 0; 
+	clear: both;
+	content: "."; 
+	display: block; 
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+/* Hide from IE Mac \*/
+.clearfix { 
+	display: block;
+}
+/* End hide from IE Mac */
+
+
+/* nojavascript */
+.nojavascript { 
+	top: 0;
+	left: 50%;
+	color: Red; 
+	z-index: 1; 
+	width: 990px;
+	background: #FFF;
+	position: absolute; 
+	margin-left: -495px; 
+	border: 2px dashed Red;
+	font: bold 12px 'Trebuchet MS', Arial, San-serif;
+}
+
+
+/***** CLASSES *****/
+.left { 
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.block {
+	display: block;
+}
+
+.clear { 
+	clear: both;
+}
+
+.debug {
+	border: 1px solid Green;
+}
+
+
+/****** BODY ******/
+body { 
+	margin: 0;
+	padding: 0; 
+	color: #900;
+	background: #FFF;
+	text-align: center; 
+	font: 100% Arial, Helvetica, Sans-serif; 
+}
+
+
+/****** MAIN ******/
+#main {
+	padding: 0;  
+	width: 475px;
+	margin: 0 auto; 
+	text-align: left; 
+	max-height: 800px; 
+	position: relative; 
+	border-top: 3px solid #000;
+}
+
+
+/****** HEADER ******/
+#header { 
+	color: #FFF;
+	width: 475px;
+	height: 196px;	
+	padding-top: 4px;
+	font: 11px Tahoma, Sans-serif;
+	background: transparent url(../images/common/img_banner.jpg);
+}
+
+#header p {
+	text-align: right;
+	line-height: 18px;
+	margin: 0 10px 0px 0;
+}
+
+#nav {
+	padding: 0;
+	width: 350px;
+	height: 43px;
+	margin: 5px 0;
+	list-style: none;
+}
+
+#nav li {
+	margin: 0 4px;
+	padding-top: 3px;
+}
+
+#nav li,
+#nav li a {
+	float: left;
+	height: 40px;
+	display: block;
+}
+
+#nav li a {
+	color: #FFF;
+	padding: 0 4px;
+	text-indent: 2px;
+	text-decoration: none;
+	font: 11px Tahoma, Sans-serif; 
+	background-repeat: no-repeat;
+	background-color: transparent;
+	
+}
+
+#nav li[title="home"] a {
+	background-position: center 20px;
+	background-image: url(../images/common/icn_home.png);
+}
+
+#nav li[title="services"] a {
+background-position: center 20px;
+	background-image: url(../images/common/icn_services.png);
+}
+
+#nav li[title="coupons"] a {
+	background-position: center 16px;
+	background-image: url(../images/common/icn_coupons.png);
+}
+
+#nav li[title="portfolio"] a {
+background-position: center 16px;
+	background-image: url(../images/common/icn_portfolio.png);
+}
+
+#nav li[title="contact"] a {
+	background-position: center 14px;
+	background-image: url(../images/common/icn_contact.png);
+}
+
+#nav li.active-menu {
+	background: url(../images/common/bg_nav.jpg);
+	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#nav li a:hover {
+	text-decoration: underline;
+}
+
+#header p em {
+	text-shadow: 3px 3px 3px #000;
+	font: bold italic 16px Arial, Sans-serif;
+}
+
+#header p span {
+	margin: 5px;
+	color: #29BAEF;
+	display: block;
+	font: 16px 'MonotypeCorsiva';
+	text-shadow: 3px 3px 3px #000;
+}
+	
+/****** BOTTOM BAR ******/
+#topContent { 
+	width: 475px;
+}	
+
+#topContent h2 {
+	color: #2C70CA;
+	padding: 10px 0;
+	margin: 0 0 10px;
+	font: 12px 'ArialBlack';
+	background: url(../images/common/img_certified.jpg) no-repeat 375px center;
+}
+
+#topContent h2 small {
+	color: #676767;
+	font: 10px Tahoma, Sans-serif;
+}	
+
+#topContent dl {
+	float: left;
+	width: 210px;
+	margin: 5px 20px 5px 0;
+}
+
+#topContent dl dt {
+	margin-right: 10px;
+}
+
+#topContent dl dd {
+	margin: 0;
+	color: #595959;
+	font: 9px Tahoma, Sans-serif;
+}
+
+#topContent dl dd strong {
+	color: #2C70CA;
+	display: block;
+	margin: 0 0 3px;
+	font: bold 11px Arial, Sans-serif;
+}
+
+#topContent dl dd a {
+	float: right;
+	color: #595959;
+	display: block;
+	margin: 2px 5px 0;
+	padding: 2px 0 1px;
+	text-decoration: none;
+	border-bottom: 1px dashed #595959;
+}
+
+#topContent dl dd a:hover {
+	color: #2C70CA;
+	border-bottom: 1px dashed #2C70CA;
+}
+
+#topContent dl dd a span {
+	width: 0;
+	height: 0;
+	float: right;
+	display: block;
+	margin: 4px 0 0 4px;
+	border-left: 4px solid #595959;
+	border-top: 2px solid transparent;
+	border-bottom: 2px solid transparent;
+}
+
+#topContent dl dd a:hover span {
+	border-left: 4px solid #2C70CA;
+}
+			
+/****** CONTENT ******/
+#content { 
+	width: 475px;
+	height: 230px;
+	color: #595959;
+}			
+
+#inner-content {
+	margin: 0;
+	height: 210px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	position: relative;
+	padding: 0 15px 0 0;
+	font-family: Arial, Sans-serif;
+}
+
+#content h1,
+#btmContent h2 {
+	color: #333;
+	font: 16px Arial, Sans-serif;
+}
+
+#content h1 big,
+#btmContent h2 big {
+	color: #2C70CA;
+	padding-left: 5px;
+	font: 17px 'ArialBlack';
+}
+
+#content p,
+#inner-content p {
+	margin: 7px 0;
+	font-size: 9px;
+	line-height: 150%;
+	text-align: justify;
+}
+
+#content p.no-text {
+	margin: 50px 0;
+	text-align: center;
+}
+
+#inner-content p strong,
+#inner-content table tr th {
+	color: #2C70CA;
+	font-size: 10px;
+}
+
+#inner-content table {
+	font-size: 9px;
+	margin: 10px 0;
+	text-align: center;
+	border: 1px solid #595959;
+}
+
+#inner-content table tr th, 
+#inner-content table tr td {
+	padding: 1px 5px;
+	border: 1px solid #595959;
+}
+
+/****** BOTTOM CONTENT ******/
+#btmContent ul,
+#inner-content ul {
+	float: left;
+	margin: 0 15px 0 0;
+	padding-left: 25px;
+}
+
+#btmContent ul li,
+#inner-content ul li {
+	color: #2C70CA;
+	font-size: 8px;
+	margin-top: 4px;
+}
+
+#btmContent ul li small,
+#inner-content ul li small {
+	color: #595959;
+	font: 9px Tahoma, Sans-serif;
+}
+
+/****** FOOTER ******/
+#footer {
+	color: #FFF;
+	width: 475px;
+	height: 60px;
+	margin: 0 auto;
+	padding: 24px 0 0;
+	font: 9px/25px Tahoma, Sans-serif;
+	background: transparent url(../images/common/bg_footer.jpg);
+}
+
+#footer p {
+	float: left;
+	width: 60%;
+	line-height: 12px;
+	text-align: left;
+	margin: 0 0 0 10px;
+}
+
+#footer p a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#footer p a:hover {
+	text-decoration: underline;
+}
+
+#footer span {
+	float: right;
+	display: block;
+	margin: 0 10px 0 0;
+}
+
+#footer span a {
+	border: none;
+	text-indent: -999em;
+	text-decoration: none;
+	display: block;
+	float: left;
+	margin-left: 5px;
+	width: 14px;
+	height: 14px;
+	background-color: transparent;
+	background-image: url(../images/common/img_social.png);
+}
+
+#footer span a[title="Facebook"] {
+	*background-position-x: 28px;
+	background-position: 28px center;
+}
+
+#footer span a[title="Twitter"] {
+	*background-position-x: 14px;
+	background-position: 14px center;
+}
+
+
+/************************************************************
+ ****************   For CSV Database Use   ******************
+ ************************************************************
+
+/*** Fancybox Gallery ***
+
+#content .gallery { 
+	width: 800px; 
+	margin: 0 auto; 
+	text-align: center;
+}
+	
+#content .gallery li { 
+	display: inline; 
+	position: relative;
+}
+			
+#content .gallery li a img { 
+	margin-bottom: 25px; 
+}
+
+
+/*** Fancybox Pagination ***
+
+#content .page_navigation { 
+	text-align: center; 
+	margin: 0 0 25px 390px; 
+	font: 14px Arial, Sans-serif; 
+}
+
+#content .page_navigation a, .ellipse { 
+	color: #FFF; 
+	float: left; 
+	padding: 5px; 
+	margin: 0 5px; 
+	display: inline; 
+	background: #333; 
+	border: 1px solid #111; 
+}
+		
+#content .page_navigation a:hover, 
+#content .page_navigation a.active_page { 
+	color: #FFF; 
+	float: left; 
+	margin: 0 5px; 
+	display: inline; 
+	border: 1px solid #E00; 
+	background-color: #D90102; 
+}
+
+
+/*** Thumbnail Easing ***
+
+#content .gallery li.mid { 
+	margin-left: 130px; 
+}
+
+#content .gallery li a {
+	float: left; 
+	width: 200px; 
+	height: 175px; 
+	position: relative; 
+	margin: 0 30px 30px 0; 
+}
+
+#content .gallery li a span {
+	top: 0; 
+	left: 0; 
+	float: left; 
+	width: 190px; 
+	height: 165px; 
+	position: absolute; 
+	border: 5px solid #FFF;
+}
+			
+#content .gallery li a:hover span { 
+	background: #5A5954;
+	border: 5px solid #FFF; 
+}
+
+************************************************************/
