@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemadesigner version="6.5">
+<source>
+<database charset="latin1" collation="latin1_swedish_ci">galleryproj</database>
+</source>
+<canvas zoom="100">
+<tables>
+<table name="tblusers" view="colnames">
+<left>60</left>
+<top>283</top>
+<width>121</width>
+<height>243</height>
+<sql_create_table>CREATE TABLE `tblusers` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `username` varchar(20) DEFAULT NULL,
+  `password` varchar(20) DEFAULT NULL,
+  `first_name` varchar(50) DEFAULT NULL,
+  `last_name` varchar(50) DEFAULT NULL,
+  `email` varchar(50) DEFAULT NULL,
+  `date_created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `logins` int(10) DEFAULT '0',
+  `last_login` int(10) NOT NULL DEFAULT '0',
+  `status` varchar(10) DEFAULT 'active',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1</sql_create_table>
+</table>
+<table name="tblimages" view="colnames">
+<left>283</left>
+<top>128</top>
+<width>131</width>
+<height>159</height>
+<sql_create_table>CREATE TABLE `tblimages` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `image_name` varchar(100) DEFAULT NULL,
+  `admin_id` int(10) DEFAULT NULL,
+  `user_id` int(10) DEFAULT NULL,
+  `status` varchar(10) DEFAULT 'active',
+  PRIMARY KEY (`id`),
+  KEY `FK_tblimages` (`user_id`),
+  KEY `NewIndex1` (`admin_id`),
+  CONSTRAINT `FK_tblimages` FOREIGN KEY (`user_id`) REFERENCES `tblusers` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1</sql_create_table>
+</table>
+<table name="tbladmin" view="colnames">
+<left>60</left>
+<top>42</top>
+<width>121</width>
+<height>209</height>
+<sql_create_table>CREATE TABLE `tbladmin` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `username` varchar(20) DEFAULT NULL,
+  `password` varchar(20) DEFAULT NULL,
+  `first_name` varchar(50) DEFAULT NULL,
+  `last_name` varchar(50) DEFAULT NULL,
+  `status` varchar(10) DEFAULT 'active',
+  `date_created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `logins` int(10) DEFAULT '0',
+  PRIMARY KEY (`id`),
+  CONSTRAINT `FK_tbladmin` FOREIGN KEY (`id`) REFERENCES `tblimages` (`admin_id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1</sql_create_table>
+</table>
+</tables>
+</canvas>
+</schemadesigner>

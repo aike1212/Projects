@@ -1,0 +1,56 @@
+form fieldset#admin_login {
+	color: #999;
+	width: 300px;
+  margin: auto;
+	padding: 70px 10px;
+	font-family: Tahoma, Arial, San-Serif;
+}
+
+form fieldset#admin_login div {
+	border: 1px solid #999;
+  padding: 15px 15px 5px 15px;
+	
+	border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+form fieldset#admin_login div label {
+	color: #666;
+	float: left;
+  width: 100px;
+	display: block;
+}
+
+form fieldset#admin_login div input {
+  padding: 3px;
+	width: 160px;
+	font-size: 14px;
+	margin-bottom: 10px;
+  border: 1px solid #999;
+}
+
+form fieldset#admin_login a {
+  width: 18%;
+	text-align: center;
+  text-decoration: none;
+}
+
+form fieldset#admin_login a,
+form fieldset#admin_login input.login {
+  color: #FFF;
+	padding: 10px;
+  cursor: pointer;
+  font-size: 14px;
+	margin: 15px 10px 0 0;
+  border: 2px solid #09F; 
+  background: transparent url('../images/bg_navigation-hover.jpg') repeat-x;
+  
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+form fieldset#admin_login input.login {
+  width: 25%;
+}

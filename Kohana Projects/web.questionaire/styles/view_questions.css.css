@@ -1,0 +1,181 @@
+div#post_message {
+    color: #393;
+    margin: auto;
+    width: 800px;
+    padding: 10px;
+    text-align: center;
+    background-color: #6F6;
+    border: 1px solid #3A3;
+    font: bold 14px Tahoma, Arial, San-serif;
+}
+
+div#view_questions {
+  padding: 20px 0;
+}
+
+div#view_questions ul,
+div#view_questions ul li,
+div#view_questions ul li a {
+  padding: 10px;
+	font: 14px Tahoma, Arial, San-Serif;
+}
+
+div#view_questions ul {
+	width: 800px;
+	margin: 20px auto;
+  list-style-type: none;
+}
+
+div#view_questions ul li {
+  display: inline;
+  margin-right: -5px;
+	border: 1px solid #666;
+}
+
+div#view_questions ul li a {
+	color: #666;
+  text-decoration: none;
+}
+
+div#view_questions ul li.active {
+  color: #333;
+	background-color: #EEE;
+}
+
+div#view_questions ul li a:hover {
+  text-decoration: underline;
+}
+
+div#view_questions p {
+  color: #933;
+  width: 900px;
+	margin: auto;
+	text-align: center;
+	font: italic 12px Georgia, Times New Romans, Serif;
+}
+
+div#view_questions h2 {
+  width: 800px;
+  margin: auto;
+	padding: 40px 0 10px 0;
+	border-bottom: 3px dotted #AAA;
+}
+
+div#view_questions h2 a,
+div#view_questions h2 span {
+	padding: 10px;
+  font-size: 14px;
+	margin-left: 20px;
+}
+
+div#view_questions h2 span {
+  color: #999;
+}
+
+div#view_questions h2 a {
+  color: #FFF;
+	text-decoration: none;
+	background-color: #666;
+	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+div#view_questions h2 a:hover {
+  text-decoration: underline;
+}
+
+div#view_questions table {
+  width: 800px;
+	margin: auto;
+	padding-bottom: 30px;
+}
+
+div#view_questions table tr th {
+  color: #FFF;
+	background-color: #999;
+	padding: 5px;
+	font: bold 12px Tahoma, Arial, San-Serif;
+}
+
+div#view_questions table tr td {
+  color: #666;
+	padding: 5px;
+	text-align: center;
+	border: 1px solid #999;
+	border-collapse: collapse;
+  font: 12px Tahoma, Arial, San-Serif;
+}
+div#view_questions table tr.even {
+  background-color: #EEE;
+}
+
+div#view_questions table tr td a {
+  color: #333;
+	text-decoration: none;
+}
+
+div#view_questions table tr td a:hover {
+  text-decoration: underline;
+}
+
+div#view_questions table tr td.green {
+  color: #0B0;
+}
+
+div#view_questions table tr td.red {
+  color: #B00;
+}
+
+div#view_questions p.no_result {
+	color: black;
+	width: 800px;
+  margin: auto;
+	padding-bottom: 20px;
+	border: 1px solid #666;
+	background-color:	#FF6;
+  font: 14px Tahoma, Arial, San-Serif;
+}
+
+form fieldset {
+  width: 860px;
+	margin: 20px auto;
+  text-align: center;
+}
+
+form fieldset label {
+	color: #666;
+	margin-right: 10px;
+  font: 14px Tahoma, Arial, San-Serif;
+}
+
+form fieldset select {
+  width: 210px;
+	padding: 4px;
+	margin-right: 20px;
+	border: 1px solid #999;
+	font: 14px Tahoma, Arial, San-Serif;
+}
+
+form fieldset input {
+  width: 350px;
+	padding: 5px;
+	border: 1px solid #999;
+	font: 14px Tahoma, Arial, San-Serif;
+}
+
+form fieldset input.filter {
+  color: #FFF;
+	width: auto;
+  cursor: pointer;
+	font-size: 14px;
+  margin-left: 10px;
+	padding: 5px 10px;;
+  border: 2px solid #09F; 
+	background: transparent url('../images/bg_navigation-hover.jpg') repeat-x;
+  
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}

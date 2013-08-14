@@ -1,0 +1,63 @@
+div#wrapper p,
+div#wrapper p a {
+  font: 12px Tahoma, Arial, San-Serif;
+}
+
+div#wrapper p {
+  color: #999;
+  padding: 20px 40px;
+}
+
+div#wrapper p a {
+  color: #333;
+}
+
+div#wrapper p a:hover {
+  color: #099;
+}
+
+form fieldset {
+  width: 920px;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+form fieldset input#code {
+  width: 150px;
+  border: 1px solid #999;
+  vertical-align: middle;
+  font: 34px Tahoma, Arial, San-Serif;
+}
+
+form fieldset input#submit {
+  width: 10%;
+  color: #FFF;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 20px;
+  vertical-align: middle;
+  border: 2px solid #09F;
+  background: transparent url('../images/bg_navigation-hover.jpg') repeat-x;
+  
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+form fieldset label {
+  color: #AAA;
+  padding-right: 10px;
+  vertical-align: middle;
+  font: bold 32px Tahoma, Arial, San-Serif;
+}
+
+form fieldset div#errors {
+	width: 800px;
+	margin: auto;
+	padding: 20px;
+	text-align: left;
+	margin-bottom: 30px;
+	border: 1px solid #333;
+	background-color: #FF6;
+	font: 12px/18px Tahoma, Arial, San-Serif;
+}

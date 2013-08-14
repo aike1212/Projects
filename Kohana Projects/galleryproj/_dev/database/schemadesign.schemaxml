@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemadesigner version="6.5">
+<source>
+<database charset="latin1" collation="latin1_swedish_ci">galleryproj</database>
+</source>
+<canvas zoom="100">
+<tables>
+<table name="tblusers" view="colnames">
+<left>98</left>
+<top>118</top>
+<width>138</width>
+<height>306</height>
+<sql_create_table>CREATE TABLE `tblusers` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `username` varchar(20) DEFAULT NULL,
+  `password` varchar(20) DEFAULT NULL,
+  `first_name` varchar(50) DEFAULT NULL,
+  `last_name` varchar(50) DEFAULT NULL,
+  `email` varchar(50) DEFAULT NULL,
+  `birthday` date NOT NULL,
+  `contact_number` varchar(10) NOT NULL DEFAULT 'N/A',
+  `date_created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `logins` int(10) DEFAULT '0',
+  `last_login` int(10) NOT NULL DEFAULT '0',
+  `status` varchar(10) DEFAULT 'active',
+  `is_admin` binary(1) DEFAULT '0',
+  `profile_picture` varchar(255) NOT NULL DEFAULT '1273026732noprofile.jpg',
+  `images` int(10) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=latin1</sql_create_table>
+</table>
+<table name="tblimages" view="colnames">
+<left>309</left>
+<top>270</top>
+<width>121</width>
+<height>158</height>
+<sql_create_table>CREATE TABLE `tblimages` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `image_src` varchar(250) DEFAULT NULL,
+  `user_id` int(10) DEFAULT NULL,
+  `status` varchar(10) DEFAULT 'active',
+  `date_created` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  KEY `FK_tblimages` (`user_id`),
+  CONSTRAINT `FK_tblimages` FOREIGN KEY (`user_id`) REFERENCES `tblusers` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=114 DEFAULT CHARSET=latin1</sql_create_table>
+</table>
+</tables>
+</canvas>
+</schemadesigner>

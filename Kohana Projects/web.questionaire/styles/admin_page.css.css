@@ -1,0 +1,170 @@
+div#admin {
+  padding: 20px 0;
+}
+
+div#admin ul,
+div#admin ul li,
+div#admin ul li a {
+  padding: 10px;
+	font: 14px Tahoma, Arial, San-Serif;
+}
+
+div#admin ul {
+	width: 800px;
+	margin: 20px auto;
+  list-style-type: none;
+}
+
+div#admin ul li {
+  display: inline;
+  margin-right: -5px;
+	border: 1px solid #666;
+}
+
+div#admin ul li a {
+	color: #666;
+  text-decoration: none;
+}
+
+div#admin ul li.active {
+  color: #333;
+	background-color: #EEE;
+}
+
+div#admin ul li a:hover {
+  text-decoration: underline;
+}
+
+div#admin p {
+  color: #933;
+  width: 900px;
+	margin: auto;
+	text-align: center;
+	font: italic 12px Georgia, Times New Romans, Serif;
+}
+
+div#admin h2 {
+  width: 800px;
+  margin: auto;
+	padding: 40px 0 10px 0;
+	border-bottom: 3px dotted #AAA;
+}
+
+div#admin h2 a,
+div#admin h2 span {
+	padding: 10px;
+  font-size: 14px;
+	margin-left: 20px;
+}
+
+div#admin h2 span {
+  color: #999;
+}
+
+div#admin h2 a {
+  color: #FFF;
+	text-decoration: none;
+	background-color: #666;
+	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+div#admin h2 a:hover {
+  text-decoration: underline;
+}
+
+div#admin table {
+  width: 850px;
+	margin: auto;
+	padding-bottom: 30px;
+}
+
+div#admin table tr th {
+  color: #FFF;
+	background-color: #999;
+	padding: 5px;
+	font: bold 12px Tahoma, Arial, San-Serif;
+}
+
+div#admin table tr td {
+  color: #666;
+	padding: 5px 0;
+	text-align: center;
+	border: 1px solid #999;
+	border-collapse: collapse;
+  font: 12px Tahoma, Arial, San-Serif;
+}
+div#admin table tr.even {
+  background-color: #EEE;
+}
+
+div#admin table tr td a {
+  color: #333;
+	text-decoration: none;
+}
+
+div#admin table tr td a:hover {
+  text-decoration: underline;
+}
+
+div#admin table tr td.green {
+  color: #0B0;
+}
+
+div#admin table tr td.red {
+  color: #B00;
+}
+
+div#admin p.no_result {
+	color: black;
+	width: 800px;
+  margin: auto;
+	padding: 20px 0;
+	border: 1px solid #666;
+	background-color:	#FF6;
+  font: 14px Tahoma, Arial, San-Serif;
+}
+
+form fieldset {
+  width: 820px;
+	margin: 20px auto;
+  text-align: center;
+}
+
+form fieldset label {
+	color: #666;
+	margin-right: 10px;
+  font: 14px Tahoma, Arial, San-Serif;
+}
+
+form fieldset select {
+  width: 250px;
+	padding: 4px;
+	margin-right: 20px;
+	border: 1px solid #999;
+	font: 14px Tahoma, Arial, San-Serif;
+}
+
+form fieldset input {
+  width: 350px;
+	padding: 5px;
+	border: 1px solid #999;
+	font: 14px Tahoma, Arial, San-Serif;
+}
+
+form fieldset input.search {
+  color: #FFF;
+	width: auto;
+  cursor: pointer;
+	font-size: 14px;
+  margin-left: 10px;
+	padding: 5px 10px;;
+  border: 2px solid #09F; 
+	background: transparent url('../images/bg_navigation-hover.jpg') repeat-x;
+  
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}

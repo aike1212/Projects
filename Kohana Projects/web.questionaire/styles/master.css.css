@@ -1,0 +1,83 @@
+/*====================== library ===========================
+---------------------- end of library ---------------------*/
+
+/*========================== global =======================*/
+
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+.debug{border: 1px solid green;}
+.left{float: left;}
+.right{float: right;}
+.breaker{clear:both; display: block;}
+.spacer:after{
+  height: 0;
+  clear: both;
+  content: " ";
+  font-size: 0;
+  display: block;
+  visibility: hidden;
+}
+
+/*----------------------- end of global -------------------*/
+
+/*=========================== layout ======================*/
+
+h1 {
+  z-index: 5;
+  color: #FFF;
+  padding: 75px 0;
+  position: relative;
+  text-align: center;
+  background-color: #000;
+  font: bold 25px Tahoma, Arial, San-Serif;
+}
+
+h2 {
+  color: #666;
+  margin-bottom: 30px;
+  border-bottom: 3px dotted #999;
+  font: 28px Tahoma, Arial, San-Serif;
+}
+
+h1 span#header {
+  top: 15%;
+  left: 30%;
+  z-index: 10;
+  width: 500px;
+  height: 90px;
+  position: absolute;
+  background: transparent url('../images/img_logo.jpg') no-repeat;
+}
+
+div#wrapper {
+  width: 960px;
+  margin: auto;
+  background: transparent url('../images/bg_wrap-trans.png') repeat-y;
+}
+
+div#footer {
+  color: #999;
+  width: 900px;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+  font: 10px Tahoma, Arial, San-Serif;
+  background: transparent url('../images/bg_bottom-wrap-trans.png') no-repeat top;
+}
+
+div#footer a,
+div#footer span {
+  color: #666;
+  font-style: normal;
+}
+
+div#footer a:hover {
+  color: #099;
+}
+
+/*------------------------ end of layout -----------------*/

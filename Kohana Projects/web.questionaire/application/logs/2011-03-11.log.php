@@ -1,0 +1,8 @@
+<?php defined('SYSPATH') or die('No direct script access.'); ?>
+
+2011-03-11 10:13:17 +00:00 --- error: Uncaught Doctrine_Connection_Mysql_Exception: SQLSTATE[HY000]: General error: 1452 Cannot add or update a child row: a foreign key constraint fails (`web_questionnaires/tbl_users`, CONSTRAINT `FK_tbl_users` FOREIGN KEY (`id`) REFERENCES `tbl_answers` (`user_id`)) in file D:/xampp/htdocs/web.questionaire/modules/doctrine/vendor/Doctrine/Connection.php on line 1084
+2011-03-11 10:17:31 +00:00 --- error: Uncaught Doctrine_Connection_Mysql_Exception: SQLSTATE[HY000]: General error: 1452 Cannot add or update a child row: a foreign key constraint fails (`web_questionnaires/tbl_users`, CONSTRAINT `FK_tbl_users` FOREIGN KEY (`id`) REFERENCES `tbl_answers` (`user_id`)) in file D:/xampp/htdocs/web.questionaire/modules/doctrine/vendor/Doctrine/Connection.php on line 1084
+2011-03-11 13:57:30 +00:00 --- error: Uncaught Doctrine_Query_Exception: Unknown column questionnaire in file D:/xampp/htdocs/web.questionaire/modules/doctrine/vendor/Doctrine/Query.php on line 767
+2011-03-11 13:58:18 +00:00 --- error: Uncaught Doctrine_Query_Exception: Unknown column questionnaire in file D:/xampp/htdocs/web.questionaire/modules/doctrine/vendor/Doctrine/Query.php on line 767
+2011-03-11 13:59:45 +00:00 --- error: Uncaught Doctrine_Query_Exception: Unknown column questionnaire in file D:/xampp/htdocs/web.questionaire/modules/doctrine/vendor/Doctrine/Query.php on line 767
+2011-03-11 14:00:59 +00:00 --- error: Uncaught Doctrine_Query_Exception: Unknown column questionnaire in file D:/xampp/htdocs/web.questionaire/modules/doctrine/vendor/Doctrine/Query.php on line 767

@@ -1,0 +1,73 @@
+.spacer:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.spacer{ display: inline-block; }
+
+/* start commented backslash hack \*/
+* html .spacer { height: 1%; }
+.spacer { display: block; }
+/* close commented backslash hack */
+
+h1 span#header {
+  _top: 50px;
+	_left: -100px;
+}
+
+form fieldset#admin_login div label {
+  _width: 90px;  
+}
+
+div#profile form fieldset input {
+  margin-bottom: 0;
+}
+
+div#profile div#links a {
+  margin-left: 0;
+	margin-right: -10px;
+}
+
+form fieldset#admin_login div input,
+form fieldset#admin_login div label {
+	margin-bottom: 0;
+}
+
+form fieldset input#submit,
+form fieldset input.register,
+form fieldset#request input.submit,
+form fieldset#creative input.submit,
+form fieldset#admin_login input.login,
+div#profile form fieldset input.update {
+  background-color: #06F;
+}
+
+form fieldset span.ol_sched {
+	width: 400px;
+	margin-left: -40px;
+}
+
+div#questionnaire_select h2 a, 
+div#questionnaire_select h2 span {
+	margin-top: -50px;
+}
+
+div#admin h2 a,
+div#admin h2 span,
+div#profile h2 a.back,
+form fieldset#request h2 a.back,
+form fieldset#creative h2 a.back {
+  margin-top: -30px;
+}
+
+form fieldset#request label,
+form fieldset#creative label,
+form fieldset#request select,
+form fieldset#request input.qna,
+form fieldset#creative input.qna {
+  margin-left: -75px;
+}
+

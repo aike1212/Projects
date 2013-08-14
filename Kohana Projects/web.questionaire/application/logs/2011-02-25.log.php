@@ -1,0 +1,11 @@
+<?php defined('SYSPATH') or die('No direct script access.'); ?>
+
+2011-02-25 04:11:03 +00:00 --- error: Uncaught Kohana_404_Exception: The page you requested, main.php/submenu, could not be found. in file D:/xampp/htdocs/arc.design/system/core/Kohana.php on line 841
+2011-02-25 04:11:37 +00:00 --- error: Uncaught Kohana_404_Exception: The page you requested, main.php/submenu, could not be found. in file D:/xampp/htdocs/arc.design/system/core/Kohana.php on line 841
+2011-02-25 04:12:06 +00:00 --- error: Uncaught Kohana_404_Exception: The page you requested, main.php/submenu, could not be found. in file D:/xampp/htdocs/arc.design/system/core/Kohana.php on line 841
+2011-02-25 04:12:14 +00:00 --- error: Uncaught Kohana_404_Exception: The page you requested, main.php/submenu, could not be found. in file D:/xampp/htdocs/arc.design/system/core/Kohana.php on line 841
+2011-02-25 04:12:41 +00:00 --- error: Uncaught Kohana_404_Exception: The page you requested, main.php/submenu, could not be found. in file D:/xampp/htdocs/arc.design/system/core/Kohana.php on line 841
+2011-02-25 04:14:19 +00:00 --- error: Uncaught Kohana_404_Exception: The page you requested, main.php/submenu, could not be found. in file D:/xampp/htdocs/arc.design/system/core/Kohana.php on line 841
+2011-02-25 04:14:41 +00:00 --- error: Uncaught PHP Error: Argument 1 passed to Doctrine_Record::fromArray() must be an array, string given, called in D:\xampp\htdocs\arc.design\modules\doctrine\vendor\Doctrine\Collection.php on line 718 and defined in file D:/xampp/htdocs/arc.design/modules/doctrine/vendor/Doctrine/Record.php on line 1865
+2011-02-25 04:15:19 +00:00 --- error: Uncaught PHP Error: Argument 1 passed to Doctrine_Record::fromArray() must be an array, string given, called in D:\xampp\htdocs\arc.design\modules\doctrine\vendor\Doctrine\Collection.php on line 718 and defined in file D:/xampp/htdocs/arc.design/modules/doctrine/vendor/Doctrine/Record.php on line 1865
+2011-02-25 04:15:24 +00:00 --- error: Uncaught PHP Error: Argument 1 passed to Doctrine_Record::fromArray() must be an array, string given, called in D:\xampp\htdocs\arc.design\modules\doctrine\vendor\Doctrine\Collection.php on line 718 and defined in file D:/xampp/htdocs/arc.design/modules/doctrine/vendor/Doctrine/Record.php on line 1865

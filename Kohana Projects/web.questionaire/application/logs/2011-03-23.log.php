@@ -1,0 +1,8 @@
+<?php defined('SYSPATH') or die('No direct script access.'); ?>
+
+2011-03-23 07:42:06 +00:00 --- error: Uncaught PHP Error: Wrong parameter count for array_push() in file D:/xampp/htdocs/web.questionaire/application/views/request.php on line 1
+2011-03-23 07:45:31 +00:00 --- error: Uncaught PHP Error: Wrong parameter count for array_push() in file D:/xampp/htdocs/web.questionaire/application/views/request.php on line 2
+2011-03-23 09:42:36 +00:00 --- error: Uncaught PHP Error: Missing argument 2 for snsUtil::question_11_choice_picker(), called in D:\xampp\htdocs\web.questionaire\application\views\questionnaire1.php on line 74 and defined in file D:/xampp/htdocs/web.questionaire/application/helpers/snsUtil.php on line 36
+2011-03-23 09:43:33 +00:00 --- error: Uncaught PHP Error: Missing argument 2 for snsUtil::question_11_choice_picker(), called in D:\xampp\htdocs\web.questionaire\application\views\questionnaire1.php on line 74 and defined in file D:/xampp/htdocs/web.questionaire/application/helpers/snsUtil.php on line 36
+2011-03-23 09:44:25 +00:00 --- error: Uncaught PHP Error: Missing argument 2 for snsUtil::question_11_choice_picker(), called in D:\xampp\htdocs\web.questionaire\application\views\questionnaire1.php on line 74 and defined in file D:/xampp/htdocs/web.questionaire/application/helpers/snsUtil.php on line 36
+2011-03-23 09:45:05 +00:00 --- error: Uncaught PHP Error: Missing argument 2 for snsUtil::question_11_choice_picker(), called in D:\xampp\htdocs\web.questionaire\application\views\questionnaire1.php on line 74 and defined in file D:/xampp/htdocs/web.questionaire/application/helpers/snsUtil.php on line 36

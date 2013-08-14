@@ -1,0 +1,1 @@
+SELECT COUNT(user_id) AS userKardel FROM tblimages WHERE user_id = '11'

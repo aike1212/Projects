@@ -1,0 +1,133 @@
+div#add_question {
+    padding: 20px 0;
+}
+
+div#errors {
+    margin: auto;
+    width: 800px;
+    color: #000;
+    padding: 20px 0;
+    text-align: center;
+    border: 1px solid #000;
+    background-color: #FE3;
+    font: 12px Tahoma, Arial, San-Serif;
+}
+
+div#add_question ul,
+div#add_question ul li,
+div#add_question ul li a {
+    padding: 10px;
+    font: 14px Tahoma, Arial, San-Serif;
+}
+
+div#add_question ul {
+    width: 800px;
+    margin: 20px auto;
+    list-style-type: none;
+}
+
+div#add_question ul li {
+    display: inline;
+    margin-right: -5px;
+    border: 1px solid #666;
+}
+
+div#add_question ul li a {
+    color: #666;
+    text-decoration: none;
+}
+
+div#add_question ul li.active {
+    color: #333;
+    background-color: #EEE;
+}
+
+div#add_question ul li a:hover {
+    text-decoration: underline;
+}
+
+div#add_question p {
+    color: #933;
+    width: 400px;
+    margin-top: 30px;
+    font: italic 12px Georgia, Times New Romans, Serif;
+}
+
+div#add_question h2 {
+    width: 800px;
+    margin: auto;
+    padding: 40px 0 10px 0;
+    border-bottom: 3px dotted #AAA;
+}
+
+div#add_question h2 a,
+div#add_question h2 span {
+    padding: 10px;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+div#add_question h2 span {
+    color: #999;
+}
+
+div#add_question h2 a {
+    color: #FFF;
+    text-decoration: none;
+    background-color: #666;
+
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+div#add_question h2 a:hover {
+    text-decoration: underline;
+}
+
+form fieldset {
+    width: 600px;
+    margin: 30px auto;
+}
+
+form fieldset label {
+    color: #666;
+    margin-right: 10px;
+    font: 14px/30px Tahoma, Arial, San-Serif;
+}
+
+form fieldset select {
+    width: 250px;
+    padding: 4px;
+    margin: 0 20px 10px 0;
+    border: 1px solid #999;
+    font: 14px Tahoma, Arial, San-Serif;
+}
+
+form fieldset select option:disabled {
+    color: #AAA;
+}
+
+form fieldset input.save {
+    width: 75px;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 30px;
+    padding: 5px 10px;
+    border: 2px solid #09F;
+    font: 14px Tahoma, Arial, San-Serif;
+    background: transparent url('../images/bg_navigation-hover.jpg') repeat-x;
+
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+form fieldset textarea {
+    color: #333;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #666;
+    font: 14px Tahoma, Arial, San-Serif;
+}

@@ -1,0 +1,87 @@
+form fieldset#creative {
+  color: #999;
+  width: 900px;
+  text-align: center;
+  padding: 40px 0 40px 70px;
+  font: 24px Tahoma, Arial, San-Serif;
+}
+
+form fieldset#creative p {
+  width: 815px;
+}
+
+form fieldset#creative h2 {
+  width: 90%;
+  text-align: left;
+	padding-bottom: 10px;
+}
+
+form fieldset#creative h4 {
+  color: #09F;
+  margin: 30px 0;
+  text-align: left;
+  font: 28px Georgia, Times New Romans, Serif;
+}
+
+form fieldset#creative label,
+form fieldset#creative input.qna {
+  width: 90%;
+  display: block;
+  margin-top: 10px;
+  text-align: justify;
+} 
+
+form fieldset#creative input.qna {
+  color: #666;
+  padding: 3px;
+  border: 1px solid #666;
+  background-color: rgb(245,245,245);
+  font: 26px Tahoma, Arial, San-Serif;
+}
+
+form fieldset#creative input.submit {
+  width: 15%;
+  color: #FFF;
+  margin: auto;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  border: 2px solid #09F;
+  background: transparent url('../images/bg_navigation-hover.jpg') repeat-x;
+  
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+form fieldset#creative p a {
+  padding: 11px 40px;
+	text-decoration: none;
+}
+
+form fieldset#creative h2 a.back {
+  padding: 10px;
+}
+
+form fieldset#creative p a,
+form fieldset#creative p input,
+form fieldset#creative h2 a.back {
+	color: #FFF;
+  font-size: 14px;
+	text-decoration: none;
+	background-color: #666;
+	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+form fieldset#creative h2 a.back:hover {
+	text-decoration: underline;
+}
+
+form fieldset#creative p input {
+	cursor: pointer;
+	padding: 10px 50px;
+	font-family: Tahoma, Arial, San-Serif;
+}
