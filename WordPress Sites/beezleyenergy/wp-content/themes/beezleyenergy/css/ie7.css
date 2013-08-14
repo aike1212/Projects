@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+header ul li{behavior: url(PIE.htc); z-index:100; position:relative;}
+header ul li a{behavior: url(PIE.htc); z-index:100; position:relative;}
+.navigation ul li{*zoom:1; *display:inline; }
+.article{ width:268px; }

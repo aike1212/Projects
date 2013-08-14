@@ -1,0 +1,293 @@
+/* default */
+h1,h2,h3,h4,h5 { 
+	margin: 0; 
+	padding: 0;
+}	
+
+.hidden { 
+	overflow: hidden;
+	visibility: hidden;
+	text-indent: -999em; 
+}
+
+hr.hide-line { 
+	margin: 0; 
+	padding: 0; 
+	display: none;
+}
+
+.clearfix:after { 
+	height: 0; 
+	clear: both;
+	content: "."; 
+	display: block; 
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+/* Hide from IE Mac \*/
+.clearfix { 
+	display: block;
+}
+/* End hide from IE Mac */
+
+
+/* nojavascript */
+.nojavascript { 
+	top: 0;
+	left: 50%;
+	color: Red; 
+	z-index: 1; 
+	width: 990px;
+	background: #FFF;
+	position: absolute; 
+	margin-left: -495px; 
+	border: 2px dashed Red;
+	font: bold 12px 'Trebuchet MS', Arial, San-serif;
+}
+
+
+/***** CLASSES *****/
+.left { 
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.block {
+	display: block;
+}
+
+.clear { 
+	clear: both;
+}
+
+.debug {
+	border: 1px solid Green;
+}
+
+
+/****** BODY ******/
+body { 
+	margin: 0;
+	padding: 0;
+	color: #635D58;	
+	text-align: center; 
+	font: 100% 'CenturyGothic', Helvetica, Sans-serif; 
+	background: #FFF url('../images/common/bg_body.png') repeat-x bottom;
+}
+
+/****** MAIN ******/
+#main {
+	margin: auto;
+	width: 960px;	
+}
+
+/****** HEADER ******/
+#header { 
+	margin: 20px auto;
+}
+
+#header h1 {
+	width: 290px;
+	height: 125px;
+	text-indent: -999em;
+	background: transparent url('../images/common/img_logo.png');
+}
+
+#header-call {
+	font-size: 25px;
+	line-height: 100px;
+}
+
+#header-call span {
+	color: #5FB2E5;
+	padding-left: 10px;
+}
+
+#nav {
+	padding: 0;
+	margin: 25px 0 0;
+	list-style: none;
+}
+
+#nav li {
+	float: left;
+	width: 111px;
+	height: 75px;
+	display: block;
+	margin: 0 15px;
+	background: transparent url('../images/common/bg_nav-reflect.png') repeat-x bottom;
+}
+
+#nav li:first-child {
+	margin: 0 15px 0 0;
+}
+
+#nav li:last-child {
+	margin: 0 0 0 15px;
+}
+
+#nav li a {
+	color: #FFF;
+	width: 111px;
+	height: 40px;
+	display: block;
+	font-size: 15px; 
+	background: #5FB2E5;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#nav li a {
+	padding: 6px 0;
+}
+
+#nav li a[name="faq"],
+#nav li a[name="news"],
+#nav li a[name="contact"],
+#nav li a[name="facility"] {
+	line-height: 40px;
+}
+		
+/****** CONTENT ******/
+#content { 
+	width: 260px;
+}	
+
+#content p {
+	margin: 0;
+	color: #635D58;
+	font-size: 17px;
+	line-height: 160%;
+	text-align: justify;
+}
+
+#content #appointment {
+	color: #799D0D;
+	padding: 0 10px;
+	margin: 15px auto;
+	background: #C2E75C;
+	display: inline-block;
+	text-decoration: none;
+	border: 1px solid #9AC810;
+	font: 18px/50px 'CenturyGothicBold';
+	
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+#banner {
+	width: 678px;
+	height: 315px;
+	position: relative;
+	background: transparent url('../images/common/bg_banner-container.png');
+}
+
+#banner p {
+	text-align: left;
+	line-height: 30px;
+	margin: 30px 0 0 30px;
+}
+
+#banner p span {
+	color: #5FB2E5;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+#banner p big {
+	color: #5FB2E5;
+	font-size: 33px;
+	margin-top: 15px;
+	text-transform: uppercase;
+}
+
+#banner	#selectors {
+	right: 10px;
+	bottom: 25px;
+	width: 106px;
+	height: 21px;
+	display: block;
+	position: absolute;
+	background: transparent url('../images/common/img_slider.png');
+}		
+		
+/****** BOTTOM BAR ******/
+#btm-bar { 
+	color: #FFF;
+	width: 100%;
+	background: #5FB2E5;
+}
+
+#btm-wrapper {
+	width: 960px;
+	margin: 0 auto;
+	padding: 15px 0;
+}
+
+#btm-wrapper div {
+	width: 280px;
+	text-align: left;
+}
+
+#btm-wrapper div h3 {
+	font-size: 20px;
+	margin-bottom: 10px;
+	font-family: 'CenturyGothicBold';
+}
+
+#btm-wrapper div form label,
+#btm-wrapper div form input[type="text"] {
+	font-size: 17px;
+	line-height: 120%;
+}
+
+#btm-wrapper div form input[type="text"] {
+	width: 270px;
+	padding: 5px;
+	color: #635D58;
+	display: block;
+	margin-top: 10px;
+}
+
+#btm-wrapper div strong {
+	color: #9AC810;
+	font-size: 18px;
+	text-shadow: 0 0 1px #FFF;
+}
+
+#btm-wrapper div .social {
+	width: 29px;
+	height: 28px;
+	text-indent: -999em;
+	display: inline-block;
+	background-color: transparent;
+	background-image: url('../images/common/icn_social.png');
+}
+
+#btm-wrapper div .social[title="Twitter"] {
+	margin: 0 10px;
+	background-position: 58px top;
+}
+
+#btm-wrapper div .social[title="Youtube"] {
+	background-position: right top;
+}
+
+/****** FOOTER ******/
+#footer {
+	color: #799D0C;
+	padding: 15px 0;
+	font-size: 12px;
+}

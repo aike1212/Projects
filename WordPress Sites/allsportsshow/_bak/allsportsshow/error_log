@@ -1,0 +1,1 @@
+[04-Jun-2012 19:31:28] PHP Fatal error:  Call to undefined function get_header() in /home/scxserv/public_html/allsportsshow/wp-content/themes/allsportsshow/index.php on line 18
