@@ -1,0 +1,16 @@
+#nav {
+	margin: 15px 0 25px;
+	padding: 0 !important;
+}
+
+#nav li.last {
+	border-right: none;
+}
+
+#sidebar a img {
+	border: none;
+}
+
+#btm-content dl {
+	margin: 16px 0;
+}

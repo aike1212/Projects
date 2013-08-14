@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'ArialRoundedBold';
+    src: url('../fonts/arlrdbd.eot');
+    src: url('../fonts/arlrdbd.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/arlrdbd.woff') format('woff'),
+         url('../fonts/arlrdbd.ttf') format('truetype'),
+         url('../fonts/arlrdbd.svg#ArialRoundedBold') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'ComicSans';
+    src: url('../fonts/comic.eot');
+    src: url('../fonts/comic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/comic.woff') format('woff'),
+         url('../fonts/comic.ttf') format('truetype'),
+         url('../fonts/comic.svg#ComicSans') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+

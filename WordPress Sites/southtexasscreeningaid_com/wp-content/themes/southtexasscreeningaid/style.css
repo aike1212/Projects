@@ -1,0 +1,372 @@
+/* default */
+h1,h2,h3,h4,h5 { 
+	margin: 0; 
+	padding: 0;
+}	
+
+.hidden { 
+	overflow: hidden;
+	visibility: hidden;
+	text-indent: -999em; 
+}
+
+hr.hide-line { 
+	margin: 0; 
+	padding: 0; 
+	display: none;
+}
+
+.clearfix:after { 
+	height: 0; 
+	clear: both;
+	content: "."; 
+	display: block; 
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+/* Hide from IE Mac \*/
+.clearfix { 
+	display: block;
+}
+/* End hide from IE Mac */
+
+
+/* nojavascript */
+.nojavascript { 
+	top: 0;
+	left: 50%;
+	color: Red; 
+	z-index: 1; 
+	width: 990px;
+	background: #FFF;
+	position: absolute; 
+	margin-left: -495px; 
+	border: 2px dashed Red;
+	font: bold 12px 'Trebuchet MS', Arial, San-serif;
+}
+
+
+/***** CLASSES *****/
+.left { 
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.block {
+	display: block;
+}
+
+.clear { 
+	clear: both;
+}
+
+.debug {
+	border: 1px solid Green;
+}
+
+
+/****** BODY ******/
+body { 
+	margin: 0;
+	padding: 0; 
+	text-align: center; 
+	background-color: #EBF1E3;
+	font: 100% Arial, Helvetica, Sans-serif; 
+}
+
+/****** HEADER ******/
+#header { 
+	width: 100%;
+	height: 171px;
+	background: url(images/common/bg_header.jpg);
+}
+
+#inner-header {
+	width: 990px;
+	height: 171px;
+	margin: 0 auto;
+}
+
+#inner-header h1 {
+	font: 0/0 a;
+	width: 388px;
+	height: 132px;
+	padding-top: 11px;
+	background: url(images/common/img_logo.png) no-repeat center bottom;
+}
+
+#inner-header p {
+	color: #555;
+	margin: 10px 0;
+	text-align: left;
+}
+
+#inner-header p small {
+	display: block;
+	margin-bottom: 10px;
+	font: 11px/120% Arial, Sans-serif;
+}
+
+#inner-header p #spacer {
+	padding: 0 15px;
+}
+
+#inner-header p a[title="fax"],
+#inner-header p a[title="phone"] {
+	color: #6B8C21;
+	padding-left: 22px;
+	text-decoration: none;
+	font: 16px/22px Arial, Sans-serif;
+}
+
+#inner-header p a[title="fax"] {
+	background: transparent url(images/common/icn_fax.png) no-repeat left center;
+}
+
+#inner-header p a[title="phone"] {
+	background: transparent url(images/common/icn_phone.png) no-repeat left center;
+}
+
+#inner-header p a:hover {
+	text-decoration: underline;
+}
+
+#menu-header-navigation {
+	padding: 0;
+	float: right;
+	margin: 30px 0 0;
+	list-style: none;
+}
+
+#menu-header-navigation li {
+	margin: 0 15px;
+	padding: 0 15px;
+	text-align: center;
+	display: inline-block;
+	
+	zoom: 1;
+	*display: inline;
+}
+
+#menu-header-navigation li:first-child {
+	margin: 0 15px 0 0;
+}
+
+#menu-header-navigation li:last-child {
+	margin: 0 0 0 15px;
+}
+
+#menu-header-navigation li.current_page_item {
+	background: transparent url(images/common/bg_nav-hover.png);
+	
+	border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	-webkit-border-radius: 10px 10px 0 0;
+}
+
+#menu-header-navigation li a {
+	color: #777;
+	text-decoration: none;
+	font: bold 13px/44px Arial, Sans-serif;
+}
+
+#menu-header-navigation li a:hover,
+#menu-header-navigation li.current_page_item a {
+	color: #61823F;
+}
+
+/****** BANNER AREA ******/
+#banner-area {
+	margin: 0 auto;
+	max-width: 1440px;
+	overflow-x: hidden;
+	text-align: center;
+}
+
+/****** MAIN ******/
+#main {
+	width: 100%;
+	padding: 25px 0 0;
+	background: transparent url(images/common/bg_main.png) repeat-x;
+}
+		
+/****** TOP CONTENT ******/
+#content,
+#top-content,
+#inner-footer { 
+	width: 990px;
+	margin: 0 auto;
+}
+
+#top-content dl {
+	float: left;
+	width: 326px;
+	margin: 0 0 30px;
+}
+
+#top-content dl#mid {
+	margin: 0 6px;
+}
+
+#top-content dl dd {
+	margin: 0;
+	padding: 0 10px;
+	text-align: left;
+}
+
+#content h2,
+#top-content dl dd h4 {
+	color: #868686;
+	font: 24px/40px Arial, Sans-serif;
+	border-bottom: 1px dotted #C6D7B0;
+}
+
+#content p span,
+#content h2 span,
+#top-content dl dd h4 span {
+	color: #6B8C21;
+}
+
+#content p,
+#top-content dl dd p {
+	color: #777;
+	min-height: 40px;
+	font: 15px/120% Arial, Sans-serif;
+}
+
+.read-more-info {
+	color: #AAA;
+	height: 18x;
+	width: 160px;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	font: 11px/18px Tahoma, Sans-serif; 
+	background: transparent url(images/common/img_arrow-link.png) no-repeat right center;
+}
+
+.read-more-info:hover {
+	text-decoration: underline;
+}
+
+/****** CONTENT ******/
+#content {
+	padding: 40px 0;
+	background: transparent url(images/common/bg_content.png) no-repeat center top;
+}
+
+.inner-content {
+	width: 480px;
+	text-align: left;
+}
+
+#content p {
+	line-height: 24px;
+}
+
+/****** BOTTOM CONTENT ******/
+#bottom-content {
+	height: 315px;
+	margin: 0 auto;
+	max-width: 1440px;
+	overflow-x: hidden;
+	background: url(images/common/bg_bottom-content2.png) no-repeat center top;
+}
+
+#inner-bottom-content {
+	width: 990px;
+	margin: 0 auto;
+}
+
+#inner-bottom-content .list-holder {
+	color: #FFF;
+	float: left;
+	text-align: left;
+	margin: 30px 30px 0 0;
+	font: 12px Tahoma, Sans-serif;
+}
+
+#inner-bottom-content .list-holder strong,
+#inner-bottom-content .list-holder p strong {
+	font-size: 13px;
+}
+
+#inner-bottom-content .list-holder p {
+	margin: 0 0 15px;
+}
+
+#inner-bottom-content .list-holder ul {
+	padding: 0;
+	margin: 25px 0 0;
+	list-style: none;
+}
+
+#inner-bottom-content .list-holder ul li {
+	margin: 10px 0;
+}
+
+#inner-bottom-content p a {
+	width: 32px;
+	height: 31px;
+	margin: 5px 2px 0 0;
+	display: inline-block;
+	
+	zoom: 1;
+	*float: left;
+	*display: block;
+}
+
+#inner-bottom-content p a[title="Facebook"] {
+	background: transparent url(images/common/icn_fb.png);
+}
+
+#inner-bottom-content p a[title="Twitter"] {
+	background: transparent url(images/common/icn_tw.png);
+}
+
+#inner-bottom-content p a[title="RSS"] {
+	background: transparent url(images/common/icn_rs.png);
+}
+
+#inner-bottom-content p a[title="Google+"] {
+	background: transparent url(images/common/icn_g+.png);
+}
+
+#inner-bottom-content p a[title="Youtube"] {
+	background: transparent url(images/common/icn_yt.png);
+}
+
+/****** FOOTER ******/
+#footer {
+	width: 100%;
+	height: 92px;
+	background: url(images/common/bg_footer.jpg);
+}
+
+#inner-footer p,
+#inner-footer p a {
+	color: #517239;
+	margin: 25px 0 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	font: 11px Tahoma, Sans-serif;
+}
+
+#inner-footer p span {
+	padding: 0 5px;
+}
+
+#inner-footer p a:hover {
+	text-decoration: underline;
+}

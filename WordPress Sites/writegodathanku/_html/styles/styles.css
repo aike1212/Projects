@@ -1,0 +1,296 @@
+/* default */
+h1,h2,h3,h4,h5 { 
+	margin: 0; 
+	padding: 0;
+}	
+
+.hidden { 
+	overflow: hidden;
+	visibility: hidden;
+	text-indent: -999em; 
+}
+
+hr.hide-line { 
+	margin: 0; 
+	padding: 0; 
+	display: none;
+}
+
+.clearfix:after { 
+	height: 0; 
+	clear: both;
+	content: "."; 
+	display: block; 
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+/* Hide from IE Mac \*/
+.clearfix { 
+	display: block;
+}
+/* End hide from IE Mac */
+
+
+/* nojavascript */
+.nojavascript { 
+	top: 0;
+	left: 50%;
+	color: Red; 
+	z-index: 1; 
+	width: 990px;
+	background: #FFF;
+	position: absolute; 
+	margin-left: -495px; 
+	border: 2px dashed Red;
+	font: bold 12px 'Trebuchet MS', Arial, San-serif;
+}
+
+
+/***** CLASSES *****/
+.left { 
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.block {
+	display: block;
+}
+
+.clear { 
+	clear: both;
+}
+
+.debug {
+	border: 1px solid Green;
+}
+
+
+/****** BODY ******/
+body { 
+	margin: 0;
+	padding: 0; 
+	text-align: center; 
+	background: #054BC2 url('../images/common/bg_body.jpg') no-repeat center top;
+}
+
+/****** HEADER ******/
+#header,
+#footer { 
+	width: 100%;
+	height: 50px;
+	background: transparent url('../images/common/bg_header.png') repeat-x;
+}
+
+#header p {
+	width: 980px;
+	margin: 0 auto;
+}
+
+#header p,
+#header p span a {
+	color: #FFF;
+	text-align: left;
+	text-decoration: none;
+	font: 15px/50px Arial, Sans-serif;
+}
+
+#header p span a {
+	padding-right: 20px;
+}
+
+#header p span a:hover {
+	text-decoration: underline;
+}
+
+#logo-area h1 {
+	color: #FFF;
+	width: 745px;
+	text-align: left;
+	margin: 25px auto;
+	font-size: 59.79px;
+	padding-left: 235px;
+	text-shadow: 0 0 5px #FFF;
+	font-family: 'ArialRoundedBold';
+	background: transparent url('../images/common/img_logo.jpg') no-repeat 50px center;
+}
+
+#logo-area h1 big {
+	font-size: 102.46px;
+}
+
+/****** MAIN ******/
+#main {
+	margin: auto;
+	width: 980px;	
+	padding: 5px 0;
+	text-align: left;
+	background: #054BC2;
+	
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+#main p {
+	color: #FFF;
+	margin: 15px;
+	padding: 0 40px;
+	font-size: 22px;
+	text-align: left;
+	font-family: 'ComicSans';
+}
+
+#main #inst {
+	color: #FFF;
+	display: block;
+	font-size: 14px;
+	margin-top: 25px;
+	padding-left: 50px;
+	display: inline-block;
+	font-family: 'ArialRoundedBold';
+}
+
+#main #write {
+	color: #000;
+	width: 270px;
+	height: 50px;
+	font-size: 20px;
+	line-height: 50px;
+	margin-right: 50px;
+	text-decoration: none;
+	font-family: 'ComicSans';
+	background: transparent url('../images/common/btn_write-to-god.png');
+}
+
+#category {
+	margin: 5px 0 0;
+	list-style: none;
+	padding: 0 0 10px;
+	text-align: center;
+}
+
+#main .cat-item,
+#category li {
+	display: inline-block;
+}
+		
+/****** SIDEBAR ******/
+#sidebar { 
+	float: left; 
+	width: 190px;			
+}
+
+/****** CONTENT ******/
+#content { 
+	float: right; 
+	width: 760px;
+}			
+
+/****** FOOTER ******/
+#footer p {
+	width: 980px;
+	margin: 0 auto;
+}
+
+#footer p,
+#footer p a {
+	color: #FFF;
+	font-size: 15px;
+	line-height: 50px;
+	text-align: right;
+	text-decoration: none;
+	font-family: 'ComicSans';
+}
+
+/************************************************************
+ ****************   For CSV Database Use   ******************
+ ************************************************************
+
+/*** Fancybox Gallery ***
+
+#content .gallery { 
+	width: 800px; 
+	margin: 0 auto; 
+	text-align: center;
+}
+	
+#content .gallery li { 
+	display: inline; 
+	position: relative;
+}
+			
+#content .gallery li a img { 
+	margin-bottom: 25px; 
+}
+
+
+/*** Fancybox Pagination ***
+
+#content .page_navigation { 
+	text-align: center; 
+	margin: 0 0 25px 390px; 
+	font: 14px Arial, Sans-serif; 
+}
+
+#content .page_navigation a, .ellipse { 
+	color: #FFF; 
+	float: left; 
+	padding: 5px; 
+	margin: 0 5px; 
+	display: inline; 
+	background: #333; 
+	border: 1px solid #111; 
+}
+		
+#content .page_navigation a:hover, 
+#content .page_navigation a.active_page { 
+	color: #FFF; 
+	float: left; 
+	margin: 0 5px; 
+	display: inline; 
+	border: 1px solid #E00; 
+	background-color: #D90102; 
+}
+
+
+/*** Thumbnail Easing ***
+
+#content .gallery li.mid { 
+	margin-left: 130px; 
+}
+
+#content .gallery li a {
+	float: left; 
+	width: 200px; 
+	height: 175px; 
+	position: relative; 
+	margin: 0 30px 30px 0; 
+}
+
+#content .gallery li a span {
+	top: 0; 
+	left: 0; 
+	float: left; 
+	width: 190px; 
+	height: 165px; 
+	position: absolute; 
+	border: 5px solid #FFF;
+}
+			
+#content .gallery li a:hover span { 
+	background: #5A5954;
+	border: 5px solid #FFF; 
+}
+
+************************************************************/
