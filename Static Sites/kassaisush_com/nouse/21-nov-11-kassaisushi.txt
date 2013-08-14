@@ -1,0 +1,13 @@
+revisions
+=========================
+prog: AIKE
+
+• SIDE BAR " 10 menus"
+
+make them clickable and when they click it it will direct them to the line where the menu is.
+
+• CONTACT US PAGE
+
+arrange the page same as this: http://txisc.com/contact.php
+
+thanks =)

@@ -1,0 +1,199 @@
+food,description,price,category
+01. &nbsp; Miso,,1.50,soup_and_salad
+02. &nbsp; Clear Soup,,1.50,soup_and_salad
+03. &nbsp; Inari Soup ,"(Tofu skin, fish cake)",2.00,soup_and_salad
+04. &nbsp; Green Salad,,2.75,soup_and_salad
+05. &nbsp; Cucumber Salad,,3.75,soup_and_salad
+06. &nbsp; Avocado Salad,,3.95,soup_and_salad
+07. &nbsp; Kani Salad,,4.25,soup_and_salad
+08. &nbsp; Seaweed Salad,,4.25,soup_and_salad
+09. &nbsp; Mango Avocado Salad,,5.95,soup_and_salad
+01. &nbsp; Spring Roll,,3.50,appetizers
+02. &nbsp; Shumai ,(Filled Shrimp steamed dumplings),4.25,appetizers
+03. &nbsp; Age Tofu,(Fried tofu with special sauce),4.25,appetizers
+04. &nbsp; Yakitori ,(Broiled chicken on skewer),4.50,appetizers
+05. &nbsp; Tonkatsu,,4.50,appetizers
+06. &nbsp; Chicken Katsu ,,4.50,appetizers
+07. &nbsp; Vegetables Tempura,,4.75,appetizers
+08. &nbsp; Ebitori ,(Broiled shrimp on skewer) ,4.95,appetizers
+09. &nbsp; Tempura,,4.95,appetizers
+10. &nbsp; Golden Mussel ,,5.50,appetizers
+11. &nbsp; Ebi Tempura ,,5.75,appetizers
+12. &nbsp; Ebi Asparagus ,(Asparagus & shrimp with teriyaki) ,6.75,appetizers
+13. &nbsp; Dynamite ,,6.95,appetizers
+14. &nbsp; Soft Shell Crab ,(Deep fried soft shell crab served w/ tonkatsu sauce),6.95,appetizers
+15. &nbsp; Bird Nest ,(Deep fried scallops w/ mashed avocado on the top with special sauce.),6.95,appetizers
+16. &nbsp; Rock Shrimp ,,6.95,appetizers
+17. &nbsp; Crispy Calamari,,8.95,appetizers
+01. &nbsp; Kani Su ,(Crab stick with vinegar sauce),4.50,sushi
+02. &nbsp; Tako Su,(Octopus with vinegar sauce),5.50,sushi
+03. &nbsp; Sashimi ,"(Tofu skin, fish cake)",7.95,sushi
+04. &nbsp; Tuna or Salmon Tartar,,7.95,sushi
+05. &nbsp; Tuna Tataki Salad,,8.95,sushi
+06. &nbsp; Torched Tuna ,(Deepo fried jalapeno stuffed spicy tuna and cream cheese),9.95,sushi
+07. &nbsp; Yellow Tail Jalapeno  ,,10.95,sushi
+08. &nbsp; Tuna Carpaccio,,10.95,sushi
+01. &nbsp; Kappa,,2.50,hand_roll_temaki
+02. &nbsp; Kani,,3.00,hand_roll_temaki
+03. &nbsp; California ,,3.25,hand_roll_temaki
+04. &nbsp; Hamachi,,3.50,hand_roll_temaki
+05. &nbsp; Maguro ,(Tuna),3.50,hand_roll_temaki
+06. &nbsp; Salmon Skin,,3.50,hand_roll_temaki
+07. &nbsp; Alaska,,3.75,hand_roll_temaki
+08. &nbsp; Ebi ,(Shrimp),3.75,hand_roll_temaki
+09. &nbsp; Ikura,(Salmon roe),4.00,hand_roll_temaki
+10. &nbsp; Unagi ,(Eel),4.00,hand_roll_temaki
+11. &nbsp; Spicy Tuna,,4.25,hand_roll_temaki
+12. &nbsp; Spicy Salmon,,4.25,hand_roll_temaki
+13. &nbsp; Uni,,4.50,hand_roll_temaki
+14. &nbsp; Spicy Scallop,,4.50,hand_roll_temaki
+01. &nbsp; Oshinko Maki ,(Japanese pickles),3.50,roll_sumaki
+02. &nbsp; Avocado Maki ,,3.95,roll_sumaki
+03. &nbsp; California Maki ,"(Crab meat, cucumber, avocado)",4.00,roll_sumaki
+04. &nbsp; Vegetables Maki,"(Asparagus, cucumber, carrot) ",4.00,roll_sumaki
+05. &nbsp; Hamachi Maki ,(Yellow tail),4.50,roll_sumaki
+06. &nbsp; Salmon Skin Maki,,4.50,roll_sumaki
+07. &nbsp; Tekka Maki ,(Tuna) ,4.50,roll_sumaki
+08. &nbsp; Salmon Maki,,4.50,roll_sumaki
+09. &nbsp; Boston Maki ,"(Shrimp, cucumber, lettuce roll)",4.75,roll_sumaki
+10. &nbsp; East Maki ,"(Shrimp, egg, avocado)",4.75,roll_sumaki
+11. &nbsp; Alaska Maki ,"(Salmon, avocado, cucumber)",4.75,roll_sumaki
+12. &nbsp; Unagi Maki ,(Eel with cucumber),4.95,roll_sumaki
+13. &nbsp; Spicy Shrimp Maki ,"(Spicy shrimp, tobiko, green onion) ",4.95,roll_sumaki
+14. &nbsp; Philadelphia Maki ,(Smoked salmon & cream cheese),4.95,roll_sumaki
+15. &nbsp; Futo Maki ,"(Egg, cucumber, kani, oshinko, avocado) ",5.00,roll_sumaki
+16. &nbsp; Ikura Maki ,(Salmon roe) ,5.25,roll_sumaki
+17. &nbsp; Spicy Tuna ,"(Spicy tuna, tobiko, seaweed) ",5.25,roll_sumaki
+18. &nbsp; Spicy Salmon ,"(Spicy salmon, tobiko, seaweed) ",5.25,roll_sumaki
+19. &nbsp; Uni Maki ,(Sea urchin),5.50,roll_sumaki
+20. &nbsp; House Maki ,"(Tempura starth Mayonnaise, cook salmon & onion)",5.50,roll_sumaki
+21. &nbsp; River Maki ,"(Eel, avocado, egg, tobiko)",5.50,roll_sumaki
+22. &nbsp; Spicy Scallop Maki ,"(Spicy scallop, tobiko, green onion)",5.95,roll_sumaki
+23. &nbsp; Ebi Tempura Maki ,,6.50,roll_sumaki
+24. &nbsp; Yellow Maki ,"(Spicy yellow tail, tobiko, tobiko, green onion, inside & crispy tempura powder inside) ",6.95,roll_sumaki
+25. &nbsp; New York Maki ,"(Tuna, tobiko, avocado inside, outside with salmon)",9.50,roll_sumaki
+26. &nbsp; Dragon Maki ,(Eel with cucumber & avocado outside),9.50,roll_sumaki
+27. &nbsp; Rainbow Maki ,(4 pieces fish filled on California roll),9.50,roll_sumaki
+28. &nbsp; Sunshine Maki ,"(Inside salmon, pickles & Avocado. Outside tuna & tobiko)",9.50,roll_sumaki
+29. &nbsp; Spider Maki,(Shell crab with crab meat & avocado),9.50,roll_sumaki
+30. &nbsp; Manhattan Maki,"(Inside spicy crab meat & tuna, salmon, avocado outside)",10.95,roll_sumaki
+31. &nbsp; Black Dragon Maki ,"(Inside shrimp tempura, outside eel tempura)",10.95,roll_sumaki
+01. &nbsp; Fire Crackers,"(tuna avocado, jalape&ntilde;os and tempura crunchy with hot spicy sauce) ",9.50,chefs_special_roll
+02. &nbsp; Mexico Roll ,"(spicy tuna, cream cheeses jalape&ntilde;os deep fry with special sauce)",10.95,chefs_special_roll
+03. &nbsp; Fantastic Roll ,(yellow tail scallion and tempura asparagus wrapped in soy papers),10.95,chefs_special_roll
+04. &nbsp; Mexico Roll ,"(spicy tuna, cream cheeses jalape&ntilde;os deep fry with special sauce)",10.95,chefs_special_roll
+05. &nbsp; Tokyo Roll ,"(spicy tuna, tempura crunchy inside. yellow tail tuna and avocado outside)",10.95,chefs_special_roll
+06. &nbsp; Hot River ,"(spicy crummy and asparagus inside, spicy tuna on the outside) ",10.95,chefs_special_roll
+07. &nbsp; Mia Roll ,"(shrimp tempura, cream cheese, jalape&ntilde;os inside. spicy tuna outside)",10.95,chefs_special_roll
+08. &nbsp; Phoenix Roll ,"(spicy tuna and tempura crunchy inside, bed of avocado outside)",12.95,chefs_special_roll
+09. &nbsp; Spiderman Roll,"(Soft shell crab, spicy tuna, mango wrapped in soy papers with chef's special sauce)",12.95,chefs_special_roll
+10. &nbsp; Mummy Roll ,"(shrimp tempura and cucumber inside, topped with lobster salad and seared tuna and avocado)",12.95,chefs_special_roll
+11. &nbsp; Bom Bash Roll ,"(yellow tail tuna and red snapper, avocado deep fried with spicy mayo and eel sauce) ",12.95,chefs_special_roll
+"01. &nbsp; Dinner Box ""A"" ","(Tempura, deep fried scallops, salmon teriyaki & beef negimaki)",17.95,chefs_special_dinner
+"02. &nbsp; Dinner Box ""B"" ","(Sushi, sashimi & California roll)",17.95,chefs_special_dinner
+"03. &nbsp; Dinner Box ""C"" ","(Shrimp teriyaki, tankatsu, california maki & chicken tempura)",17.95,chefs_special_dinner
+04. &nbsp; Kassai Box ,"(Teriyaki steak, tempura, shumai & California roll)",17.95,chefs_special_dinner
+01. &nbsp; Japanese Fried Rice ,,6.95,noodles_and_donburi
+02. &nbsp; Oyako Don ,(Chicken with egg & vegetables on top of rice) ,7.95,noodles_and_donburi
+03. &nbsp; Yaki Udon ,(Stir fried noodles with chicken vegetables),8.50,noodles_and_donburi
+04. &nbsp; Ten Don ,(Deep fried shrimp & vegetables on top of rice) ,8.50,noodles_and_donburi
+05. &nbsp; Katsu Don,(Deep fried pork with special sauce on top of rice),8.50,noodles_and_donburi
+06. &nbsp; Tempura Udon ,(Noodles with fried shrimp & vegetables in hot soup),8.95,noodles_and_donburi
+07. &nbsp; Curry Chicken Rice,,9.50,noodles_and_donburi
+08. &nbsp; Katsu Curry Rice ,,9.50,noodles_and_donburi
+09. &nbsp; Nabeyaki Udon ,"(Noodles with fish cake, chicken, shrimp, vegetables in soup)",9.95,noodles_and_donburi
+10. &nbsp; Unagi Don ,(White rice with smoked eel on top),9.95,noodles_and_donburi
+01. &nbsp; Mochi Ice Cream ,"(green tea, red bean, mango, vanilla, cappuccino)",1.50,dessert
+02. &nbsp; Ice Cream ,"(Chocolate, vanilla, red bean, green tea) ",3.25,dessert
+03. &nbsp; Fried Banana Stuffed with sweet bean,,3.50,dessert
+04. &nbsp; Tempura Ice Cream ,"(Chocolate, vanilla, red bean, green tea)",4.50,dessert
+01. &nbsp; Vegetables Teriyaki ,(Deep fried vegetables) ,5.50,lunch_specials
+02. &nbsp; Vegetables Tempura,(Deep fried vegetables),5.95,lunch_specials
+03. &nbsp; Tofu Teriyaki ,,5.95,lunch_specials
+04. &nbsp; Tempura ,(Deep fried shrimp & vegetables),6.95,lunch_specials
+05. &nbsp; Chicken Tempura ,(Deep fried chicken),6.95,lunch_specials
+06. &nbsp; Yakitori,(Skewed broiled chicken with yakitori sauce),6.95,lunch_specials
+07. &nbsp; Chicken Teriyaki,,6.95,lunch_specials
+08. &nbsp; Tonkatsu ,(Breaded pork cutlet served with teriyaki sauce),6.95,lunch_specials
+09. &nbsp; Beef Negimaki ,,7.50,lunch_specials
+10. &nbsp; Shrimp Teriyaki ,,7.50,lunch_specials
+11. &nbsp; Salmon Teriyaki ,(Broiled salmon with teriyaki sauce),7.50,lunch_specials
+12. &nbsp; Beef Teriyaki,(Broiled beef steak with teriyaki sauce),7.50,lunch_specials
+13. &nbsp; Chicken & Shrimp Teriyaki,,8.50,lunch_specials
+14. &nbsp; Sushi,,8.95,lunch_specials
+15. &nbsp; Sashimi,,9.50,lunch_specials
+16. &nbsp; Sushi & Sashimi Combination,,9.50,lunch_specials
+,COMBINATIONS:,,lunch_specials
+17. &nbsp; Combination Bendon A ,"(Yakitori, tempura, California roll) ",8.95,lunch_specials
+18. &nbsp; Combination Bendon B ,"(Chicken teriyaki, California roll, gyoza)",8.95,lunch_specials
+19. &nbsp; Combination Bendon C ,"(Tempura, shumai, California roll) ",8.95,lunch_specials
+20. &nbsp; Kassai Bendon ,"(Salmon teriyaki, yakitori, California roll)",8.95,lunch_specials
+01. &nbsp; East maki ,,,maki_combo
+02. &nbsp; Cucumber maki,,,maki_combo
+03. &nbsp; Unagi maki ,,,maki_combo
+04. &nbsp; Spicy Shrimp maki,,,maki_combo
+05. &nbsp; Oshinko maki ,,,maki_combo
+06. &nbsp; Spicy Tuna maki,,,maki_combo
+07. &nbsp; Hamachi maki ,,,maki_combo
+08. &nbsp; Boston maki ,,,maki_combo
+09. &nbsp; Tekka maki ,,,maki_combo
+10. &nbsp; Avocado maki,,,maki_combo
+11. &nbsp;  Salmon maki,,,maki_combo
+12. &nbsp; Kampyo maki ,,,maki_combo
+13. &nbsp; Alaska maki ,,,maki_combo
+14. &nbsp; Vegetables maki ,,,maki_combo
+15. &nbsp; California maki,,,maki_combo
+16. &nbsp; Philadelphia maki,,,maki_combo
+17. &nbsp; Salmon Skin maki ,,,maki_combo
+18. &nbsp; Spicy Salmon maki,,,maki_combo
+01. &nbsp; Vegetable Teriyaki ,,7.95,authentic_japanese_dishes
+02. &nbsp; Tofu Teriyaki ,,8.95,authentic_japanese_dishes
+03. &nbsp; Vegetable Tempura,,8.95,authentic_japanese_dishes
+04. &nbsp; Chicken Tempura ,,9.95,authentic_japanese_dishes
+05. &nbsp; Tonkatsu,"(Fried breaded filet of Pork, served with special sauce)",9.95,authentic_japanese_dishes
+06. &nbsp; Chicken Katsu ,,9.95,authentic_japanese_dishes
+07. &nbsp; Chicken Teriyaki ,,9.95,authentic_japanese_dishes
+08. &nbsp; Ebi Tempura ,"(Deep fried shrimp, served with tempura sauce)",10.95,authentic_japanese_dishes
+09. &nbsp; Tempura ,(Deep fried shrimp & veges. served with tempura sauce),10.95,authentic_japanese_dishes
+10. &nbsp; Tempura Combination ,,11.95,authentic_japanese_dishes
+11. &nbsp; Shrimp Shogayaki ,(Shrimp marinated with Veges in Ginger Sauce),12.50,authentic_japanese_dishes
+12. &nbsp; Beef Shogayaki,,12.50,authentic_japanese_dishes
+13. &nbsp; Beef Teriyaki ,,12.50,authentic_japanese_dishes
+14. &nbsp; Beef Negimaki ,(Sliced beef w. scallions roll) ,12.50,authentic_japanese_dishes
+15. &nbsp; Shrimp Teriyaki,,12.50,authentic_japanese_dishes
+16. &nbsp; Salmon Teriyaki,(Broiled salmon w. teriyaki Sauce),12.50,authentic_japanese_dishes
+17. &nbsp; Yakimono Combo ,"(Shrimp, scallops, beef and Chicken on skewer w. Teriyaki Sauce)",12.95,authentic_japanese_dishes
+18. &nbsp; Beef & Chicken Teriyaki,,12.95,authentic_japanese_dishes
+19. &nbsp; Seafood Teriyaki ,"(Salmon, shrimp & scallops w. Teriyaki sauce) ",13.50,authentic_japanese_dishes
+20. &nbsp; Shrimp & Scallops Teriyaki ,,13.50,authentic_japanese_dishes
+21. &nbsp; Beef & Shrimp Teriyaki,,13.50,authentic_japanese_dishes
+22. &nbsp; Sushi,"(1 California maki, 8 nigiri sushi) ",14.95,authentic_japanese_dishes
+23. &nbsp; Chirashi,(Variety of raw fish over a box of rice),14.95,authentic_japanese_dishes
+24. &nbsp; Tekka Donburri,(Raw tuna over a box of rice),14.95,authentic_japanese_dishes
+25. &nbsp; Sushi Deluxe ,"(Spicy tuna maki, 10 nigiri sushi)",17.95,authentic_japanese_dishes
+26. &nbsp; Sashimi,(15 pcs.),17.95,authentic_japanese_dishes
+27. &nbsp; Sushi & Sashimi Combination,,18.95,authentic_japanese_dishes
+28. &nbsp; Sashimi Deluxe ,(18 pcs.) ,20.95,authentic_japanese_dishes
+29. &nbsp; Sushi & Sashimi (for 2),"(8 pcs sushi, 15 pcs sashimi, 1 california maki, 1 spicy tuna maki)",34.95,authentic_japanese_dishes
+01. &nbsp; Kani,(Crab meat),1.50,ala_carte
+02. &nbsp; Inari,(Fried bean curd stuffed with rice),1.50,ala_carte
+03. &nbsp; Saba,(Mackerell),1.75,ala_carte
+04. &nbsp; Ebi,(Shrimp),1.75,ala_carte
+05. &nbsp; Tamago,(Egg),1.75,ala_carte
+06. &nbsp; Tako,(Octopus) ,1.75,ala_carte
+07. &nbsp; Ika,(Squid) ,2.00,ala_carte
+08. &nbsp; Maguro,(Tuna) ,2.00,ala_carte
+09. &nbsp; Tai ,(Red snapper),2.00,ala_carte
+10. &nbsp; Sake,(Salmon),2.00,ala_carte
+11. &nbsp; Hamachi,(Yellow tail),2.00,ala_carte
+12. &nbsp; Unagi,(Eel) ,2.00,ala_carte
+13. &nbsp; Tobiko,(Fine fish roe),2.00,ala_carte
+14. &nbsp; Hokigai,,2.00,ala_carte
+15. &nbsp; Smoked Salmon ,,2.00,ala_carte
+16. &nbsp; Hirame Flounder,,2.00,ala_carte
+17. &nbsp; White Tuna ,,2.00,ala_carte
+18. &nbsp; Ikura,(Salmon roe) ,2.50,ala_carte
+19. &nbsp; Hotategai,(Live scallop),2.75,ala_carte
+20. &nbsp; Uni,(Sea urchin) ,3.50,ala_carte
+21. &nbsp; Seared Tuna,(2 pcs) ,5.00,ala_carte
+22. &nbsp; Ama,(Ebi Sweet shrimp 2 pcs),7.00,ala_carte
