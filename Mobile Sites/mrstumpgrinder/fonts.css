@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+				font-family: 'Bebas';
+				src: url('../fonts/bebas___.eot');
+				src: url('../fonts/bebas___.eot?#iefix') format('embedded-opentype'),
+						 url('../fonts/bebas___.woff') format('woff'),
+						 url('../fonts/bebas___.ttf') format('truetype'),
+						 url('../fonts/bebas___.svg#bebas___') format('svg');
+				font-weight: normal;
+				font-style: normal;
+		}
+@font-face {
+				font-family: 'MyriadPro-Cond';
+				src: url('../fonts/myriadpro-cond.eot');
+				src: url('../fonts/myriadpro-cond.eot?#iefix') format('embedded-opentype'),
+						 url('../fonts/myriadpro-cond.woff') format('woff'),
+						 url('../fonts/myriadpro-cond.ttf') format('truetype'),
+						 url('../fonts/myriadpro-cond.svg#myriadpro-cond') format('svg');
+				font-weight: normal;
+				font-style: normal;
+		}
